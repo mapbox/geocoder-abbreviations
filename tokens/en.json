@@ -172,6 +172,8 @@
         "Bottom"
     ],
     [
+        "bd",
+        "Blv",
         "Blvd",
         "Boulevard"
     ],
@@ -250,6 +252,10 @@
         "Common"
     ],
     [
+        "Cmns",
+        "Commons"
+    ],
+    [
         "Cnl",
         "Canal"
     ],
@@ -257,6 +263,10 @@
         "Cnr",
         "Cor",
         "Corner"
+    ],
+    [
+        "Co",
+        "County"
     ],
     [
         "Coll",
@@ -632,6 +642,10 @@
         "Keys"
     ],
     [
+        "Loop",
+        "Lp"
+    ],
+    [
         "Lck",
         "Lock"
     ],
@@ -816,6 +830,10 @@
         "Piazza"
     ],
     [
+        "Pike",
+        "Pk"
+    ],
+    [
         "Pk",
         "Peak"
     ],
@@ -964,6 +982,10 @@
     [
         "Rty",
         "Rotary"
+    ],
+    [
+        "Row",
+        "Rw"
     ],
     [
         "S",
