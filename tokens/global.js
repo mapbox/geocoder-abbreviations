@@ -37,7 +37,8 @@ module.exports = () => {
         "Van De": " vd ",
         "Van Den": " vd ",
         "Van Der": " vd ",
-        "Câmara Municipal": " CM "
+        "Câmara Municipal": " CM ",
+        "&": "and"
     };
 
     const BOUNDARIES = "[\\s\\u2000-\\u206F\\u2E00-\\u2E7F\\\\'!\"#$%&()*+,\\-.\\/:;<=>?@\\[\\]^_`{|}~]"
