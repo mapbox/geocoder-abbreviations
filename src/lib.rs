@@ -79,6 +79,36 @@ pub struct Token {
     pub token_type: Option<TokenType>,
 }
 
+impl PartialEq for Token {
+    fn eq(&self, other: &Self) -> bool {
+
+        // do not check that self.regex == other.regex
+        // can't derive PartialEq trait on regex::Regex
+        // these values are created from the full property which is checked
+        let self_regex = match &self.regex {
+            Some(r) => Some(r.as_str()),
+            None => None
+        };
+        let other_regex = match &other.regex {
+            Some(r) => Some(r.as_str()),
+            None => None
+        };
+
+        self_regex == other_regex &&
+        self.tokens == other.tokens &&
+        self.full == other.full &&
+        self.canonical == other.canonical &&
+        self.note == other.note &&
+        self.only_countries == other.only_countries &&
+        self.only_layers == other.only_layers &&
+        self.prefer_full == other.prefer_full &&
+        self.skip_boundaries == other.skip_boundaries &&
+        self.skip_diacritic_stripping == other.skip_diacritic_stripping &&
+        self.span_boundaries == other.span_boundaries &&
+        self.token_type == other.token_type
+    }
+}
+
 impl Token {
     fn from_input(input: InToken) -> Result<Self, Error> {
         Ok(Token {
