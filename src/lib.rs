@@ -110,7 +110,7 @@ impl PartialEq for Token {
 }
 
 impl Token {
-    fn new(full: String, canonical: String, token_type: Option<TokenType>, regex: bool) -> Result<Self, Error> {
+    pub fn new(full: String, canonical: String, token_type: Option<TokenType>, regex: bool) -> Result<Self, Error> {
         Ok(Token {
             regex: match regex {
                 true => Some(Regex::new(&full)?),
