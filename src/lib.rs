@@ -2,7 +2,7 @@ use lazy_static::lazy_static;
 use serde::{Deserialize, Serialize};
 use serde_json;
 use std::collections::HashMap;
-use fancy_regex::Regex;
+use regex::Regex;
 
 lazy_static! {
     static ref LANGUAGE_CODES: Vec<String> = vec![
@@ -31,12 +31,12 @@ pub enum Error {
     LanguageCodeNotSupported(String),
     TokenFileImportNotSupported(String),
     TokenTypeNotSupported(String),
-    FancyRegexError
+    RegexError(String)
 }
 
-impl From<fancy_regex::Error> for Error {
-    fn from(_error: fancy_regex::Error) -> Self {
-        Error::FancyRegexError
+impl From<regex::Error> for Error {
+    fn from(error: regex::Error) -> Self {
+        Error::RegexError(error.to_string())
     }
 }
 
@@ -63,15 +63,16 @@ struct InToken {
     token_type: Option<String>,
 }
 
+#[derive(Debug, Clone)]
 pub struct Token {
     pub tokens: Vec<String>,
-    pub full: Replacer,
+    pub full: String,
+    pub regex: Option<Regex>,
     pub canonical: String,
     pub note: Option<String>,
     pub only_countries: Option<Vec<String>>,
     pub only_layers: Option<Vec<String>>,
     pub prefer_full: bool,
-    pub regex: bool,
     pub skip_boundaries: bool,
     pub skip_diacritic_stripping: bool,
     pub span_boundaries: Option<u8>,
@@ -79,19 +80,19 @@ pub struct Token {
 }
 
 impl Token {
-    fn new(input: InToken) -> Result<Self, Error> {
+    fn from_input(input: InToken) -> Result<Self, Error> {
         Ok(Token {
-            tokens: input.tokens,
-            full: match input.regex {
-                Some(true) => Replacer::Regex(Regex::new(&input.full)?),
-                Some(false) | None => Replacer::String(input.full),
+            regex: match input.regex {
+                Some(true) => Some(Regex::new(&input.full)?),
+                Some(false) | None => None,
             },
+            tokens: input.tokens,
+            full: input.full,
             canonical: input.canonical,
             note: input.note,
             only_countries: input.only_countries,
             only_layers: input.only_layers,
             prefer_full: input.prefer_full.unwrap_or(false),
-            regex: input.regex.unwrap_or(false),
             skip_boundaries: input.skip_boundaries.unwrap_or(false),
             skip_diacritic_stripping: input.skip_diacritic_stripping.unwrap_or(false),
             span_boundaries: input.span_boundaries,
@@ -104,11 +105,6 @@ impl Token {
             }
         })
     }
-}
-
-pub enum Replacer {
-   String(String),
-   Regex(Regex)
 }
 
 #[derive(Debug, PartialEq, Clone, Serialize, Deserialize)]
@@ -154,7 +150,23 @@ fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
             .expect("unable to parse token JSON");
         let mut tokens = Vec::new();
         for tk in &parsed {
-            tokens.push(Token::new(tk.clone())?);
+            let out = Token::from_input(tk.clone());
+            match out {
+                Ok(o) => tokens.push(o),
+                Err(err) => {
+                    match err {
+                        Error::RegexError(ref e) => {
+                            if e.contains("look-around, including look-ahead and look-behind, is not supported") {
+                                println!("warn - filtered unsupported lookaround regex {}", tk.full);
+                                continue;
+                            } else {
+                                return Err(err)
+                            }
+                        },
+                        _ => return Err(err)
+                    }
+                },
+            }
         }
         map.insert(lc.clone(), tokens);
     }
