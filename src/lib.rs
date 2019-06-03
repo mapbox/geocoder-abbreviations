@@ -110,6 +110,26 @@ impl PartialEq for Token {
 }
 
 impl Token {
+    fn new(full: String, canonical: String, token_type: Option<TokenType>, regex: bool) -> Result<Self, Error> {
+        Ok(Token {
+            regex: match regex {
+                true => Some(Regex::new(&full)?),
+                false => None
+            },
+            tokens: vec![canonical.clone(), full.clone()],
+            full: full,
+            canonical: canonical,
+            note: None,
+            only_countries: None,
+            only_layers: None,
+            prefer_full: false,
+            skip_boundaries: false,
+            skip_diacritic_stripping: false,
+            span_boundaries: None,
+            token_type: token_type,
+        })
+    }
+
     fn from_input(input: InToken) -> Result<Self, Error> {
         Ok(Token {
             regex: match input.regex {
