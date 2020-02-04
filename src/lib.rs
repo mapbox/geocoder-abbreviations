@@ -6,6 +6,7 @@ use fancy_regex::Regex;
 
 lazy_static! {
     static ref LANGUAGE_CODES: Vec<String> = vec![
+        String::from("cs"),
         String::from("de"),
         String::from("en"),
         String::from("es"),
