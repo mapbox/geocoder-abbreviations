@@ -164,7 +164,6 @@ fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
 
 fn import(lc: &str) -> Result<&str, Error> {
     match lc {
-        "cs" => Ok(include_str!("../tokens/cs.json")),
         "de" => Ok(include_str!("../tokens/de.json")),
         "en" => Ok(include_str!("../tokens/en.json")),
         "es" => Ok(include_str!("../tokens/es.json")),
