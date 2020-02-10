@@ -23,7 +23,23 @@ lazy_static! {
         String::from("pt"),
         String::from("ro"),
         String::from("ru"),
-        String::from("sv")
+        String::from("sv"),
+        String::from("sq"),
+        String::from("cat"),
+        String::from("be"),
+        String::from("bs"),
+        String::from("bg"),
+        String::from("hr"),
+        String::from("da"),
+        String::from("el"),
+        String::from("hu"),
+        String::from("is"),
+        String::from("lv"),
+        String::from("lt"),
+        String::from("sr"),
+        String::from("sk"),
+        String::from("tr"),
+        String::from("uk"),
     ];
 }
 
@@ -164,8 +180,14 @@ fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
 
 fn import(lc: &str) -> Result<&str, Error> {
     match lc {
+        "be" => Ok(include_str!("../tokens/be.json")),
+        "bg" => Ok(include_str!("../tokens/bg.json")),
+        "bs" => Ok(include_str!("../tokens/bs.json")),
+        "cat" => Ok(include_str!("../tokens/cat.json")),
         "cs" => Ok(include_str!("../tokens/cs.json")),
+        "da" => Ok(include_str!("../tokens/da.json")),
         "de" => Ok(include_str!("../tokens/de.json")),
+        "el" => Ok(include_str!("../tokens/el.json")),
         "en" => Ok(include_str!("../tokens/en.json")),
         "es" => Ok(include_str!("../tokens/es.json")),
         "et" => Ok(include_str!("../tokens/et.json")),
@@ -173,15 +195,25 @@ fn import(lc: &str) -> Result<&str, Error> {
         "fr" => Ok(include_str!("../tokens/fr.json")),
         "he" => Ok(include_str!("../tokens/he.json")),
         "id" => Ok(include_str!("../tokens/id.json")),
+        "hr" => Ok(include_str!("../tokens/hr.json")),
+        "hu" => Ok(include_str!("../tokens/hu.json")),
+        "is" => Ok(include_str!("../tokens/is.json")),
         "it" => Ok(include_str!("../tokens/it.json")),
         "ja" => Ok(include_str!("../tokens/ja.json")),
+        "lt" => Ok(include_str!("../tokens/lt.json")),
+        "lv" => Ok(include_str!("../tokens/lv.json")),
         "nl" => Ok(include_str!("../tokens/nl.json")),
         "no" => Ok(include_str!("../tokens/no.json")),
         "pl" => Ok(include_str!("../tokens/pl.json")),
         "pt" => Ok(include_str!("../tokens/pt.json")),
         "ro" => Ok(include_str!("../tokens/ro.json")),
         "ru" => Ok(include_str!("../tokens/ru.json")),
+        "sk" => Ok(include_str!("../tokens/sk.json")),
+        "sq" => Ok(include_str!("../tokens/sq.json")),
+        "sr" => Ok(include_str!("../tokens/sr.json")),
         "sv" => Ok(include_str!("../tokens/sv.json")),
+        "tr" => Ok(include_str!("../tokens/tr.json")),
+        "uk" => Ok(include_str!("../tokens/uk.json")),
         _ => Err(Error::TokenFileImportNotSupported(lc.to_string()))
     }
 }
