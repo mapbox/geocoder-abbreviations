@@ -183,7 +183,6 @@ fn import(lc: &str) -> Result<&str, Error> {
         "be" => Ok(include_str!("../tokens/be.json")),
         "bg" => Ok(include_str!("../tokens/bg.json")),
         "bs" => Ok(include_str!("../tokens/bs.json")),
-        "cat" => Ok(include_str!("../tokens/cat.json")),
         "cs" => Ok(include_str!("../tokens/cs.json")),
         "da" => Ok(include_str!("../tokens/da.json")),
         "de" => Ok(include_str!("../tokens/de.json")),
