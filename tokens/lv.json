@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "tokens": ["ielas", "iela"],
+    "full": "ielas",
+    "canonical": "ielas",
+    "note": "translates to 'street'",
+    "type": "way"
+  }
+]

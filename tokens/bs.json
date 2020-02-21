@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "tokens": ["ulica", "sokak"],
+    "full": "ulica",
+    "canonical": "ulica",
+    "note": "translates to 'street'",
+    "type": "way"
+  }
+]

@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "tokens": ["улица", "сокак"],
+    "full": "улица",
+    "canonical": "улица",
+    "note": "translates to 'street'",
+    "type": "way"
+  }
+]

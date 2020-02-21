@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "tokens": ["ulice", "uliční"],
+    "full": "ulice",
+    "canonical": "ulice",
+    "note": "translates to 'street'",
+    "type": "way"
+  }
+]

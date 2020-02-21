@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "tokens": ["дорога", "дорозі"],
+    "full": "дорога",
+    "canonical": "дорога",
+    "note": "translates to 'road'",
+    "type": "way"
+  }
+]

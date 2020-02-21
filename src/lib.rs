@@ -180,7 +180,6 @@ fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
 
 fn import(lc: &str) -> Result<&str, Error> {
     match lc {
-        "be" => Ok(include_str!("../tokens/be.json")),
         "bg" => Ok(include_str!("../tokens/bg.json")),
         "bs" => Ok(include_str!("../tokens/bs.json")),
         "cs" => Ok(include_str!("../tokens/cs.json")),
@@ -196,7 +195,6 @@ fn import(lc: &str) -> Result<&str, Error> {
         "hr" => Ok(include_str!("../tokens/hr.json")),
         "hu" => Ok(include_str!("../tokens/hu.json")),
         "id" => Ok(include_str!("../tokens/id.json")),
-        "is" => Ok(include_str!("../tokens/is.json")),
         "it" => Ok(include_str!("../tokens/it.json")),
         "ja" => Ok(include_str!("../tokens/ja.json")),
         "lt" => Ok(include_str!("../tokens/lt.json")),
@@ -207,7 +205,6 @@ fn import(lc: &str) -> Result<&str, Error> {
         "pt" => Ok(include_str!("../tokens/pt.json")),
         "ro" => Ok(include_str!("../tokens/ro.json")),
         "ru" => Ok(include_str!("../tokens/ru.json")),
-        "sk" => Ok(include_str!("../tokens/sk.json")),
         "sq" => Ok(include_str!("../tokens/sq.json")),
         "sr" => Ok(include_str!("../tokens/sr.json")),
         "sv" => Ok(include_str!("../tokens/sv.json")),

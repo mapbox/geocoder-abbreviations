@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "tokens": ["rrugë", "strēt"],
+    "full": "rrugë",
+    "canonical": "rrugë",
+    "note": "translates to 'street'",
+    "type": "way"
+  }
+]

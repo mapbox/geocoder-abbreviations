@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "tokens": ["sokak", "cadde"],
+    "full": "sokak",
+    "canonical": "sokak",
+    "note": "translates to 'street'",
+    "type": "way"
+  }
+]

@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "tokens": ["gatve", "gatvė"],
+    "full": "gatve",
+    "canonical": "gatve",
+    "note": "translates to 'street'",
+    "type": "way"
+  }
+]

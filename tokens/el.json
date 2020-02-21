@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "tokens": ["drómos", "odós"],
+    "full": "drómos",
+    "canonical": "drómos",
+    "note": "translates to 'road'",
+    "type": "way"
+  },
+  {
+    "tokens": ["drómos", "odós"],
+    "full": "odós",
+    "canonical": "odós",
+    "note": "translates to 'street'",
+    "type": "way"
+  }
+]

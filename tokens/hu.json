@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "tokens": ["utca", "utcai"],
+    "full": "utca",
+    "canonical": "utca",
+    "note": "translates to 'street'",
+    "type": "way"
+  }
+]
