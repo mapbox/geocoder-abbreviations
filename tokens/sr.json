@@ -1,6 +1,6 @@
 [
   {
-    "tokens": ["улица", "сокак"],
+    "tokens": ["улица", "ул"],
     "full": "улица",
     "canonical": "улица",
     "note": "translates to 'street'",

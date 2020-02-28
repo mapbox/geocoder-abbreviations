@@ -1,9 +1,9 @@
 [
   {
-    "tokens": ["ielas", "iela"],
-    "full": "ielas",
-    "canonical": "ielas",
-    "note": "translates to 'street'",
+    "tokens": ["bulvāris", "bulvaris"],
+    "full": "bulvāris",
+    "canonical": "bulvāris",
+    "note": "translates to 'boulevard'",
     "type": "way"
   }
 ]

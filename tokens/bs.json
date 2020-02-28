@@ -1,6 +1,6 @@
 [
   {
-    "tokens": ["ulica", "sokak"],
+    "tokens": ["ulica", "ul"],
     "full": "ulica",
     "canonical": "ulica",
     "note": "translates to 'street'",

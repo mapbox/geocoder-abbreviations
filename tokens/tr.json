@@ -1,6 +1,6 @@
 [
   {
-    "tokens": ["sokak", "cadde"],
+    "tokens": ["sokak", "sk", "sok"],
     "full": "sokak",
     "canonical": "sokak",
     "note": "translates to 'street'",

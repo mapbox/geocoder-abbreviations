@@ -1,9 +1,9 @@
 [
   {
-    "tokens": ["veg", "landevej", "landevejen"],
-    "full": "veg",
-    "canonical": "veg",
-    "note": "translates to 'road'",
+    "tokens": ["vej", "v"],
+    "full": "vej",
+    "canonical": "vej",
+    "note": "translates to 'way'",
     "type": "way"
   }
 ]
