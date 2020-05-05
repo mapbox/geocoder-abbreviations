@@ -313,7 +313,8 @@
             "Sankt"
         ],
         "full": "Sankt",
-        "canonical": "St"
+        "canonical": "St",
+        "note": "Reference to a saint"
     },
     {
         "tokens": [
