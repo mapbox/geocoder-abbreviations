@@ -20,11 +20,15 @@
     "note": "translates to 'in the'"
   },
   {
-    "tokens": ["Bf", "Bhf", "Bahnhof", "Bahnhofstr"],
+    "tokens": ["Bf", "Bhf", "Bahnhof", "Bahnhofstr", "Bahnhofstraße"],
     "full": "Bahnhof",
     "canonical": "Bf"
   },
-  { "tokens": ["bg", "berg", "bergstr"], "full": "berg", "canonical": "bg" },
+  {
+    "tokens": ["bg", "berg", "bergstr", "bergstraße"],
+    "full": "berg",
+    "canonical": "bg"
+  },
   { "tokens": ["bg", "burg"], "full": "burg", "canonical": "bg" },
   {
     "tokens": ["Br", "Brücke"],
@@ -43,7 +47,11 @@
   },
   { "tokens": ["D", "Damm"], "full": "Damm", "canonical": "D" },
   { "tokens": ["d", "der"], "full": "der", "canonical": "d" },
-  { "tokens": ["df", "dorf", "dorfstr"], "full": "dorf", "canonical": "df" },
+  {
+    "tokens": ["df", "dorf", "dorfstr", "dorfstraße"],
+    "full": "dorf",
+    "canonical": "df"
+  },
   { "tokens": ["Dr", "Doktor"], "full": "Doktor", "canonical": "Dr" },
   {
     "tokens": ["G", "Gasse"],
@@ -57,7 +65,7 @@
   { "tokens": ["Gr", "Großer"], "full": "Großer", "canonical": "Gr" },
   { "tokens": ["Gr", "Großes"], "full": "Großes", "canonical": "Gr" },
   {
-    "tokens": ["Hbf", "Hauptstr", "Hauptbahnhof"],
+    "tokens": ["Hbf", "Hauptstr", "Hauptstraße", "Hauptbahnhof"],
     "full": "Hauptbahnhof",
     "canonical": "Hbf"
   },
@@ -90,8 +98,17 @@
     "type": "way"
   },
   { "tokens": ["Rh", "Rhein"], "full": "Rhein", "canonical": "Rh" },
-  { "tokens": ["Ring", "Ringstr"], "full": "Ringstr", "canonical": "Ring" },
-  { "tokens": ["St", "Sankt"], "full": "Sankt", "canonical": "St" },
+  {
+    "tokens": ["Ring", "Ringstr", "Ringstraße"],
+    "full": "Ringstr",
+    "canonical": "Ring"
+  },
+  {
+    "tokens": ["St", "Sankt"],
+    "full": "Sankt",
+    "canonical": "St",
+    "note": "Reference to a saint"
+  },
   {
     "tokens": ["Str", "Straße", "Strasse"],
     "full": "Strasse",
