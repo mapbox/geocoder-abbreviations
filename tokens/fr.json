@@ -766,5 +766,29 @@
         "full": "Des",
         "canonical": "Des",
         "note": "translates to 'of'"
+    },
+    {
+        "tokens": [
+            "Le"
+        ],
+        "full": "Le",
+        "canonical": "Le",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "La"
+        ],
+        "full": "La",
+        "canonical": "La",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "Les"
+        ],
+        "full": "Les",
+        "canonical": "Les",
+        "type": "determiner"
     }
 ]
