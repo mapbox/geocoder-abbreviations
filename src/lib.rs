@@ -1,35 +1,30 @@
-use rust_embed::RustEmbed;
+use lazy_static::lazy_static;
 use serde::{Deserialize, Serialize};
 use serde_json;
 use std::collections::HashMap;
 use fancy_regex::Regex;
 
-#[derive(RustEmbed)]
-#[folder = "./tokens/"]
-struct Tokens;
-impl Tokens {
-    pub fn codes() -> Vec<String> {
-        let mut codes: Vec<String> = Tokens::iter().filter(|lang| {
-            lang.contains(".json")
-        }).map(|lang| {
-            String::from(lang).replace(".json", "")
-        }).collect();
-
-        codes.sort();
-
-        codes
-    }
-
-    pub fn import(lc: &str) -> Result<String, Error> {
-        println!("Token {:?}", lc);
-        match Tokens::get(format!("{}", &lc).as_str()) {
-            Some(tokens) => match std::str::from_utf8(tokens.as_ref()) {
-                Ok(tokens) => Ok(String::from(tokens)),
-                _ => Err(Error::TokenFileImportNotSupported(lc.to_string()))
-            },
-            None => Err(Error::TokenFileImportNotSupported(lc.to_string()))
-        }
-    }
+lazy_static! {
+    static ref LANGUAGE_CODES: Vec<String> = vec![
+        String::from("cs"),
+        String::from("de"),
+        String::from("en"),
+        String::from("es"),
+        String::from("et"),
+        String::from("fi"),
+        String::from("fr"),
+        String::from("he"),
+        String::from("id"),
+        String::from("it"),
+        String::from("ja"),
+        String::from("nl"),
+        String::from("no"),
+        String::from("pl"),
+        String::from("pt"),
+        String::from("ro"),
+        String::from("ru"),
+        String::from("sv")
+    ];
 }
 
 #[derive(Debug, PartialEq)]
@@ -145,10 +140,10 @@ impl TokenType {
 
 pub fn config(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
     if v.is_empty() {
-        return Ok(prepare(Tokens::codes())?)
+        return Ok(prepare(LANGUAGE_CODES.to_vec())?)
     }
     for lc in &v {
-        if !Tokens::codes().contains(lc) {
+        if !LANGUAGE_CODES.contains(lc) {
             return Err(Error::LanguageCodeNotSupported(lc.to_string()))
         }
     }
@@ -158,7 +153,7 @@ pub fn config(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
 fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
     let mut map = HashMap::new();
     for lc in &v {
-        let parsed : Vec<InToken> = serde_json::from_str(Tokens::import(lc)?.as_str())
+        let parsed : Vec<InToken> = serde_json::from_str(import(lc)?)
             .expect("unable to parse token JSON");
         let mut tokens = Vec::new();
         for tk in &parsed {
@@ -167,6 +162,30 @@ fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
         map.insert(lc.clone(), tokens);
     }
     Ok(map)
+}
+
+fn import(lc: &str) -> Result<&str, Error> {
+    match lc {
+        "cs" => Ok(include_str!("../tokens/cs.json")),
+        "de" => Ok(include_str!("../tokens/de.json")),
+        "en" => Ok(include_str!("../tokens/en.json")),
+        "es" => Ok(include_str!("../tokens/es.json")),
+        "et" => Ok(include_str!("../tokens/et.json")),
+        "fi" => Ok(include_str!("../tokens/fi.json")),
+        "fr" => Ok(include_str!("../tokens/fr.json")),
+        "he" => Ok(include_str!("../tokens/he.json")),
+        "id" => Ok(include_str!("../tokens/id.json")),
+        "it" => Ok(include_str!("../tokens/it.json")),
+        "ja" => Ok(include_str!("../tokens/ja.json")),
+        "nl" => Ok(include_str!("../tokens/nl.json")),
+        "no" => Ok(include_str!("../tokens/no.json")),
+        "pl" => Ok(include_str!("../tokens/pl.json")),
+        "pt" => Ok(include_str!("../tokens/pt.json")),
+        "ro" => Ok(include_str!("../tokens/ro.json")),
+        "ru" => Ok(include_str!("../tokens/ru.json")),
+        "sv" => Ok(include_str!("../tokens/sv.json")),
+        _ => Err(Error::TokenFileImportNotSupported(lc.to_string()))
+    }
 }
 
 #[cfg(test)]
@@ -182,9 +201,9 @@ mod tests {
         assert!(lcs.contains_key("en"));
 
         let empty_lc = config(Vec::new()).unwrap();
-        let every_lc = prepare(Tokens::codes()).unwrap();
+        let every_lc = prepare(LANGUAGE_CODES.to_vec()).unwrap();
         assert_eq!(empty_lc.len(), every_lc.len());
-        for lc in Tokens::codes() {
+        for lc in LANGUAGE_CODES.to_vec() {
             assert!(empty_lc.contains_key(&lc));
         }
     }
@@ -199,7 +218,7 @@ mod tests {
     fn test_all_lcs() {
         let mut fs_lcs = read_files();
         alphanumeric_sort::sort_str_slice(&mut fs_lcs);
-        assert_eq!(Tokens::codes(), fs_lcs);
+        assert_eq!(LANGUAGE_CODES.to_vec(), fs_lcs);
     }
 
     #[test]
@@ -213,7 +232,7 @@ mod tests {
     #[test]
     #[should_panic(expected = "TokenFileImportNotSupported(\"zz\")")]
     fn fail_import() {
-        Tokens::import("zz").unwrap();
+        import("zz").unwrap();
     }
 
     #[test]
