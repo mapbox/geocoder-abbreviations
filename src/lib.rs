@@ -3,7 +3,6 @@ use serde::{Deserialize, Serialize};
 use serde_json;
 use std::collections::HashMap;
 use fancy_regex::Regex;
-use log::{info, warn};
 
 #[derive(RustEmbed)]
 #[folder = "./tokens/"]
@@ -13,7 +12,7 @@ impl Tokens {
         let mut codes: Vec<String> = Tokens::iter().filter(|lang| {
             lang.contains(".json")
         }).map(|lang| {
-            info!("Token: {}", lang);
+            println!("Token {:?}", lang)
             String::from(lang).replace(".json", "")
         }).collect();
 
