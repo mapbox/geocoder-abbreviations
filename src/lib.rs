@@ -12,8 +12,8 @@ impl Tokens {
         let mut codes: Vec<String> = Tokens::iter().filter(|lang| {
             lang.contains(".json")
         }).map(|lang| {
-            println!("Token {:?}", lang);
             String::from(lang).replace(".json", "")
+            println!("Token {:?}", lang);
         }).collect();
 
         codes.sort();
@@ -23,7 +23,7 @@ impl Tokens {
 
     pub fn import(lc: &str) -> Result<String, Error> {
         println!("Token {:?}", lc);
-        match Tokens::get(format!("./{}", &lc).as_str()) {
+        match Tokens::get(format!("{}", &lc).as_str()) {
             Some(tokens) => match std::str::from_utf8(tokens.as_ref()) {
                 Ok(tokens) => Ok(String::from(tokens)),
                 _ => Err(Error::TokenFileImportNotSupported(lc.to_string()))
