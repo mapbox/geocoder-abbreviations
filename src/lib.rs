@@ -21,7 +21,7 @@ impl Tokens {
     }
 
     pub fn import(lc: &str) -> Result<String, Error> {
-        match Tokens::get(format!("./{}.json", &lc).as_str()) {
+        match Tokens::get(format!("./tokens/{}.json", &lc).as_str()) {
             Some(tokens) => match std::str::from_utf8(tokens.as_ref()) {
                 Ok(tokens) => Ok(String::from(tokens)),
                 _ => Err(Error::TokenFileImportNotSupported(lc.to_string()))
