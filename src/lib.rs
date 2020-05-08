@@ -12,7 +12,7 @@ impl Tokens {
         let mut codes: Vec<String> = Tokens::iter().filter(|lang| {
             lang.contains(".json")
         }).map(|lang| {
-            println!("Token {:?}", lang)
+            println!("Token {:?}", lang);
             String::from(lang).replace(".json", "")
         }).collect();
 
