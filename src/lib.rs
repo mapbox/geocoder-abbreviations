@@ -13,7 +13,6 @@ impl Tokens {
             lang.contains(".json")
         }).map(|lang| {
             String::from(lang).replace(".json", "")
-            println!("Token {:?}", lang);
         }).collect();
 
         codes.sort();
