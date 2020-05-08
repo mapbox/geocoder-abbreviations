@@ -749,7 +749,6 @@
         ],
         "full": "Du",
         "canonical": "Du",
-        "note": "translates to 'of'",
         "type": "determiner"
     },
     {
@@ -758,7 +757,6 @@
         ],
         "full": "De",
         "canonical": "De",
-        "note": "translates to 'of'",
         "type": "determiner"
     },
     {
@@ -767,7 +765,6 @@
         ],
         "full": "Des",
         "canonical": "Des",
-        "note": "translates to 'of'",
         "type": "determiner"
     }
 ]
