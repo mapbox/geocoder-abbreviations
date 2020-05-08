@@ -749,6 +749,7 @@
         ],
         "full": "Du",
         "canonical": "Du",
+        "note": "translates to 'of'",
         "type": "determiner"
     },
     {
@@ -757,6 +758,7 @@
         ],
         "full": "De",
         "canonical": "De",
+        "note": "translates to 'of'",
         "type": "determiner"
     },
     {
@@ -765,6 +767,31 @@
         ],
         "full": "Des",
         "canonical": "Des",
+        "note": "translates to 'of'",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "Le"
+        ],
+        "full": "Le",
+        "canonical": "Le",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "La"
+        ],
+        "full": "La",
+        "canonical": "La",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "Les"
+        ],
+        "full": "Les",
+        "canonical": "Les",
         "type": "determiner"
     }
 ]
