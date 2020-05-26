@@ -814,5 +814,15 @@
         "full": "Van De",
         "canonical": "vd",
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "gammel",
+            "gl"
+        ],
+        "full": "Gammel",
+        "canonical": "gl",
+        "onlyLayers": ["address"],
+        "type": "way"
     }
 ]

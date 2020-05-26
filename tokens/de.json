@@ -17,9 +17,53 @@
     },
     {
         "tokens": [
+            "auf",
+            "auf der",
+            "a.d.",
+            "a.d",
+            "a d"
+
+        ],
+        "full": "auf der",
+        "canonical": "a d",
+        "note": "translates to 'on the'"
+
+    },
+    {
+        "tokens": [
+            "an",
+            "an der",
+            "a.d.",
+            "a.d",
+            "a d"
+
+        ],
+        "full": "an der",
+        "canonical": "a d",
+        "note": "translates to 'at the'"
+
+    },
+    {
+        "tokens": [
+            "in",
+            "in der",
+            "i.d.",
+            "i.d",
+            "i d"
+
+        ],
+        "full": "in der",
+        "canonical": "i d",
+        "note": "translates to 'in the'"
+
+    },
+    {
+        "tokens": [
             "Bf",
             "Bhf",
-            "Bahnhof"
+            "Bahnhof",
+            "Bahnhofstr",
+            "Bahnhofstraße"
         ],
         "full": "Bahnhof",
         "canonical": "Bf"
@@ -27,7 +71,9 @@
     {
         "tokens": [
             "bg",
-            "berg"
+            "berg",
+            "bergstr",
+            "bergstraße"
         ],
         "full": "berg",
         "canonical": "bg"
@@ -80,7 +126,9 @@
     {
         "tokens": [
             "df",
-            "dorf"
+            "dorf",
+            "dorfstr",
+            "dorfstraße"
         ],
         "full": "dorf",
         "canonical": "df"
@@ -131,6 +179,8 @@
     {
         "tokens": [
             "Hbf",
+            "Hauptstr",
+            "Hauptstraße",
             "Hauptbahnhof"
         ],
         "full": "Hauptbahnhof",
@@ -250,11 +300,21 @@
     },
     {
         "tokens": [
+            "Ring",
+            "Ringstr",
+            "Ringstraße"
+        ],
+        "full": "Ringstr",
+        "canonical": "Ring"
+    },
+    {
+        "tokens": [
             "St",
             "Sankt"
         ],
         "full": "Sankt",
-        "canonical": "St"
+        "canonical": "St",
+        "note": "Reference to a saint"
     },
     {
         "tokens": [
@@ -350,11 +410,10 @@
     },
     {
         "tokens": [
-            "$1 str",
-            "([^ ]+)(strasse|str|straße)"
+            "(strasse|str).?$"
         ],
-        "full": "([^ ]+)(strasse|str|straße)",
-        "canonical": "$1 str",
+        "full": "(strasse|str).?$",
+        "canonical": "straße",
         "regex": true,
         "skipDiacriticStripping": true,
         "spanBoundaries": 0
