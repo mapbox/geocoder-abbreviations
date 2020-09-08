@@ -280,6 +280,14 @@
     },
     {
         "tokens": [
+            "clos"
+        ],
+        "full": "clos",
+        "canonical": "clos",
+        "note": "translates to 'enclosure'"
+    },
+    {
+        "tokens": [
             "Ch",
             "Chemin"
         ],
@@ -386,6 +394,17 @@
     },
     {
         "tokens": [
+            "général",
+            "general",
+            "gén",
+            "gen",
+            "gal"
+        ],
+        "full": "general",
+        "canonical": "gen"
+    },
+    {
+        "tokens": [
             "Hop",
             "Hôpital"
         ],
@@ -418,11 +437,38 @@
     },
     {
         "tokens": [
-            "Ld",
-            "Lieu-dit"
+            "Imp",
+            "Impasse"
+        ],
+        "full": "Impasse",
+        "canonical": "Imp",
+        "note": "translates to 'dead end'"
+    },
+    {
+        "tokens": [
+            "l dit",
+            "l-dit",
+            "ld",
+            "ldit",
+            "lieu dit",
+            "lieu-dit",
+            "lieudit"
         ],
         "full": "Lieu-dit",
         "canonical": "Ld",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "lieutenant général",
+            "lgén",
+            "lgen",
+            "l gén",
+            "l gen",
+            "leiutenant general"
+        ],
+        "full": "leiutenant general",
+        "canonical": "l gen",
         "spanBoundaries": 1
     },
     {
@@ -480,6 +526,26 @@
         ],
         "full": "Montée",
         "canonical": "Mte"
+    },
+    {
+        "tokens": [
+            "major général",
+            "mgén",
+            "mgen",
+            "m gén",
+            "m gen",
+            "major general"
+        ],
+        "full": "major general",
+        "canonical": "m gen"
+    },
+    {
+        "tokens": [
+            "mln",
+            "moulin"
+        ],
+        "full": "moulin",
+        "canonical": "mln"
     },
     {
         "tokens": [
