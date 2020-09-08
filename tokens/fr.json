@@ -446,13 +446,18 @@
     },
     {
         "tokens": [
-            "l dit",
             "l-dit",
             "ld",
             "ldit",
-            "lieu dit",
-            "lieu-dit",
-            "lieudit"
+            "lieu-dit"
+        ],
+        "full": "Lieu-dit",
+        "canonical": "Ld"
+    },
+    {
+        "tokens": [
+            "l dit",
+            "lieu dit"
         ],
         "full": "Lieu-dit",
         "canonical": "Ld",
@@ -460,9 +465,15 @@
     },
     {
         "tokens": [
-            "lieutenant général",
             "lgén",
-            "lgen",
+            "lgen"
+        ],
+        "full": "leiutenant general",
+        "canonical": "lgen"
+    },
+    {
+        "tokens": [
+            "lieutenant général",
             "l gén",
             "l gen",
             "leiutenant general"
@@ -529,15 +540,22 @@
     },
     {
         "tokens": [
-            "major général",
             "mgén",
             "mgen",
+        ],
+        "full": "major general",
+        "canonical": "mgen"
+    },
+    {
+        "tokens": [
+            "major général",
             "m gén",
             "m gen",
             "major general"
         ],
         "full": "major general",
-        "canonical": "m gen"
+        "canonical": "m gen",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
