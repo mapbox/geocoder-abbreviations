@@ -39,6 +39,19 @@
     },
     {
         "tokens": [
+            "contrada",
+            "cnt",
+            "contra",
+            "c.da",
+            "cda",
+            "contr.a"
+        ],
+        "full": "contrada",
+        "canonical": "c.da",
+        "note": "translates to 'subdivision'"
+    },
+    {
+        "tokens": [
             "X",
             "Decima"
         ],
@@ -62,6 +75,17 @@
         ],
         "full": "Fondamenta",
         "canonical": "F.ta"
+    },
+    {
+        "tokens": [
+            "frazione",
+            "fraz.e",
+            "fraze",
+            "frz",
+            "fraz"
+        ],
+        "full": "frazione",
+        "canonical": "frz"
     },
     {
         "tokens": [
@@ -236,6 +260,35 @@
         "full": "Strada Statale",
         "canonical": "SS",
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "strada",
+            "s",
+            "str.a",
+            "stra",
+            "str"
+        ],
+        "full": "strada",
+        "canonical": "str",
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "roma",
+            "rm"
+        ],
+        "full": "roma",
+        "canonical": "rm"
+    },
+    {
+        "tokens": [
+            "vico",
+            "vic"
+        ],
+        "full": "vico",
+        "canonical": "vic"
     },
     {
         "tokens": [
