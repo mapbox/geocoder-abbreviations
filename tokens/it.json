@@ -1,39 +1,49 @@
 [
     {
         "tokens": [
-            "C.le",
-            "Calle"
+            "borgo",
+            "b.go",
+            "bgo"
         ],
-        "full": "Calle",
-        "canonical": "C.le",
-        "onlyLayers": ["address"],
+        "full": "borgo",
+        "canonical": "b.go",
+        "note": "translates to 'borough'"
+    },
+    {
+        "tokens": [
+            "c.le",
+            "calle"
+        ],
+        "full": "calle",
+        "canonical": "c.le",
+        "onlylayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
     {
         "tokens": [
-            "C.po",
-            "Campo"
+            "c.po",
+            "campo"
         ],
-        "full": "Campo",
-        "canonical": "C.po"
+        "full": "campo",
+        "canonical": "c.po"
     },
     {
         "tokens": [
-            "C.so",
-            "Corso"
+            "c.so",
+            "corso"
         ],
-        "full": "Corso",
-        "canonical": "C.so"
+        "full": "corso",
+        "canonical": "c.so"
     },
     {
         "tokens": [
-            "C.te",
-            "Corte"
+            "c.te",
+            "corte"
         ],
-        "full": "Corte",
-        "canonical": "C.te",
-        "onlyLayers": ["address"],
+        "full": "corte",
+        "canonical": "c.te",
+        "onlylayers": ["address"],
         "note": "translates to 'court'",
         "type": "way"
     },
@@ -52,29 +62,21 @@
     },
     {
         "tokens": [
-            "X",
-            "Decima"
+            "x",
+            "decima",
+            "decimo"
         ],
-        "full": "Decima",
-        "canonical": "X",
+        "full": "decima",
+        "canonical": "x",
         "type": "ordinal"
     },
     {
         "tokens": [
-            "X",
-            "Decimo"
+            "f.ta",
+            "fondamenta"
         ],
-        "full": "Decimo",
-        "canonical": "X",
-        "type": "ordinal"
-    },
-    {
-        "tokens": [
-            "F.ta",
-            "Fondamenta"
-        ],
-        "full": "Fondamenta",
-        "canonical": "F.ta"
+        "full": "fondamenta",
+        "canonical": "f.ta"
     },
     {
         "tokens": [
@@ -89,177 +91,163 @@
     },
     {
         "tokens": [
-            "L.go",
-            "Largo"
+            "l.go",
+            "largo"
         ],
-        "full": "Largo",
-        "canonical": "L.go"
+        "full": "largo",
+        "canonical": "l.go"
     },
     {
         "tokens": [
-            "Loc.",
-            "Localita"
+            "loc.",
+            "localita"
         ],
-        "full": "Localita",
-        "canonical": "Loc."
+        "full": "localita",
+        "canonical": "loc."
     },
     {
         "tokens": [
-            "P.za",
-            "P.zza",
-            "Piazza"
+            "p.za",
+            "p.zza",
+            "piazza"
         ],
-        "full": "Piazza",
-        "canonical": "P.za"
+        "full": "piazza",
+        "canonical": "p.za"
     },
     {
         "tokens": [
-            "P.le",
-            "Piazzale"
+            "p.le",
+            "piazzale"
         ],
-        "full": "Piazzale",
-        "canonical": "P.le"
+        "full": "piazzale",
+        "canonical": "p.le"
     },
     {
         "tokens": [
-            "P.ta",
-            "Piazzetta"
+            "p.ta",
+            "piazzetta"
         ],
-        "full": "Piazzetta",
-        "canonical": "P.ta"
+        "full": "piazzetta",
+        "canonical": "p.ta"
     },
     {
         "tokens": [
-            "P.te",
-            "Ponte"
+            "p.te",
+            "ponte"
         ],
-        "full": "Ponte",
-        "canonical": "P.te"
+        "full": "ponte",
+        "canonical": "p.te"
     },
     {
         "tokens": [
-            "P.ta",
-            "Porta"
+            "p.ta",
+            "porta"
         ],
-        "full": "Porta",
-        "canonical": "P.ta"
+        "full": "porta",
+        "canonical": "p.ta"
     },
     {
         "tokens": [
-            "S.da",
-            "Salizada"
+            "s.da",
+            "salizada"
         ],
-        "full": "Salizada",
-        "canonical": "S.da"
+        "full": "salizada",
+        "canonical": "s.da"
     },
     {
         "tokens": [
-            "S.",
-            "San"
+            "s.",
+            "san",
+            "santa",
+            "santo"
         ],
-        "full": "San",
-        "canonical": "S."
+        "full": "santa",
+        "canonical": "s."
     },
     {
         "tokens": [
-            "S.",
-            "Santa"
+            "ss.",
+            "santi"
         ],
-        "full": "Santa",
-        "canonical": "S."
+        "full": "santi",
+        "canonical": "ss."
     },
     {
         "tokens": [
-            "S.",
-            "Santo"
+            "staz.",
+            "stazione"
         ],
-        "full": "Santo",
-        "canonical": "S."
+        "full": "stazione",
+        "canonical": "staz."
     },
     {
         "tokens": [
-            "SS.",
-            "Santi"
+            "v.",
+            "via"
         ],
-        "full": "Santi",
-        "canonical": "SS."
-    },
-    {
-        "tokens": [
-            "Staz.",
-            "Stazione"
-        ],
-        "full": "Stazione",
-        "canonical": "Staz."
-    },
-    {
-        "tokens": [
-            "V.",
-            "Via"
-        ],
-        "full": "Via",
-        "canonical": "V.",
-        "onlyLayers": ["address"],
+        "full": "via",
+        "canonical": "v.",
+        "onlylayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
     {
         "tokens": [
-            "V.le",
-            "Viale"
+            "v.le",
+            "viale"
         ],
-        "full": "Viale",
-        "canonical": "V.le",
-        "onlyLayers": ["address"],
+        "full": "viale",
+        "canonical": "v.le",
+        "onlylayers": ["address"],
         "note": "translates to 'avenue'",
         "type": "way"
     },
     {
         "tokens": [
-            "V.lo",
-            "Vicolo"
+            "v.lo",
+            "vicolo"
         ],
-        "full": "Vicolo",
-        "canonical": "V.lo",
-        "onlyLayers": ["address"],
+        "full": "vicolo",
+        "canonical": "v.lo",
+        "onlylayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     },
     {
         "tokens": [
-            "SC",
-            "Strada Comunale"
+            "sc",
+            "strada comunale"
         ],
-        "full": "Strada Comunale",
-        "canonical": "SC",
-        "spanBoundaries": 1
+        "full": "strada comunale",
+        "canonical": "sc",
+        "spanboundaries": 1
     },
     {
         "tokens": [
-            "SP",
-            "Strada Provinciale"
+            "sp",
+            "strada provinciale"
         ],
-        "full": "Strada Provinciale",
-        "canonical": "SP",
-        "spanBoundaries": 1
+        "full": "strada provinciale",
+        "canonical": "sp",
+        "spanboundaries": 1
     },
     {
         "tokens": [
-            "SR",
-            "Strada Regionale"
+            "sr",
+            "strada regionale"
         ],
-        "full": "Strada Regionale",
-        "canonical": "SR",
-        "spanBoundaries": 1
+        "full": "strada regionale",
+        "canonical": "sr",
+        "spanboundaries": 1
     },
     {
         "tokens": [
-            "SS",
-            "Strada Statale"
+            "ss",
+            "strada statale"
         ],
-        "full": "Strada Statale",
-        "canonical": "SS",
-        "spanBoundaries": 1
+        "full": "strada statale",
+        "canonical": "ss",
+        "spanboundaries": 1
     },
     {
         "tokens": [
@@ -316,10 +304,12 @@
     },
     {
         "tokens": [
-            "della"
+            "della",
+            "d.la",
+            "dla"
         ],
         "full": "della",
-        "canonical": "della",
+        "canonical": "d.la",
         "type": "determiner"
     },
     {

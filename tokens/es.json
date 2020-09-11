@@ -1,1646 +1,1047 @@
 [
-    {
-        "tokens": [
-            "1",
-            "un",
-            "uno",
-            "una"
-        ],
-        "full": "uno",
-        "canonical": "1",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "2",
-            "dos"
-        ],
-        "full": "dos",
-        "canonical": "2",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "3",
-            "tres"
-        ],
-        "full": "tres",
-        "canonical": "3",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "4",
-            "quatre",
-            "cuatro"
-        ],
-        "full": "cuatro",
-        "canonical": "4",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "5",
-            "cinc",
-            "cinco"
-        ],
-        "full": "cinco",
-        "canonical": "5",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "6",
-            "sis",
-            "seis"
-        ],
-        "full": "seis",
-        "canonical": "6",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "7",
-            "set",
-            "siete"
-        ],
-        "full": "siete",
-        "canonical": "7",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "8",
-            "vuit",
-            "ocho"
-        ],
-        "full": "ocho",
-        "canonical": "8",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "9",
-            "nou",
-            "nueve"
-        ],
-        "full": "nueve",
-        "canonical": "9",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "10",
-            "deu",
-            "diez"
-        ],
-        "full": "diez",
-        "canonical": "10",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "11",
-            "onze",
-            "once"
-        ],
-        "full": "once",
-        "canonical": "11",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "12",
-            "dotze",
-            "doce"
-        ],
-        "full": "doce",
-        "canonical": "12",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "13",
-            "tretze",
-            "trece"
-        ],
-        "full": "trece",
-        "canonical": "13",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "14",
-            "catorze",
-            "catorce"
-        ],
-        "full": "catorce",
-        "canonical": "14",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "15",
-            "quinze",
-            "quince"
-        ],
-        "full": "quince",
-        "canonical": "15",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "16",
-            "setze",
-            "dieciseis"
-        ],
-        "full": "dieciseis",
-        "canonical": "16",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "17",
-            "disset",
-            "diecisiete"
-        ],
-        "full": "diecisiete",
-        "canonical": "17",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "18",
-            "divuit",
-            "dieciocho"
-        ],
-        "full": "dieciocho",
-        "canonical": "18",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "19",
-            "dinou",
-            "diecinueve"
-        ],
-        "full": "diecinueve",
-        "canonical": "19",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "20",
-            "vint",
-            "veinte"
-        ],
-        "full": "veinte",
-        "canonical": "20",
-        "type": "number"
-    },
-    {
-        "tokens": [
-            "Acces",
-            "Acceso"
-        ],
-        "full": "Acceso",
-        "canonical": "Acces"
-    },
-    {
-        "tokens": [
-            "Aceq",
-            "Acequia"
-        ],
-        "full": "Acequia",
-        "canonical": "Aceq"
-    },
-    {
-        "tokens": [
-            "Alam",
-            "Alameda"
-        ],
-        "full": "Alameda",
-        "canonical": "Alam"
-    },
-    {
-        "tokens": [
-            "Alque",
-            "Alquería"
-        ],
-        "full": "Alquería",
-        "canonical": "Alque"
-    },
-    {
-        "tokens": [
-            "Andad",
-            "Andador"
-        ],
-        "full": "Andador",
-        "canonical": "Andad"
-    },
-    {
-        "tokens": [
-            "Angta",
-            "Angosta"
-        ],
-        "full": "Angosta",
-        "canonical": "Angta"
-    },
-    {
-        "tokens": [
-            "Apdro",
-            "Apeadero"
-        ],
-        "full": "Apeadero",
-        "canonical": "Apdro"
-    },
-    {
-        "tokens": [
-            "Aptos",
-            "Apartamentos"
-        ],
-        "full": "Apartamentos",
-        "canonical": "Aptos"
-    },
-    {
-        "tokens": [
-            "Arb",
-            "Arboleda"
-        ],
-        "full": "Arboleda",
-        "canonical": "Arb"
-    },
-    {
-        "tokens": [
-            "Arral",
-            "Arrabal"
-        ],
-        "full": "Arrabal",
-        "canonical": "Arral"
-    },
-    {
-        "tokens": [
-            "Arry",
-            "Arroyo"
-        ],
-        "full": "Arroyo",
-        "canonical": "Arry"
-    },
-    {
-        "tokens": [
-            "Auto",
-            "Autopista"
-        ],
-        "full": "Autopista",
-        "canonical": "Auto",
-        "onlyLayers": ["address"],
-        "note": "translates to 'freeway'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Autov",
-            "Autovía"
-        ],
-        "full": "Autovía",
-        "canonical": "Autov",
-        "onlyLayers": ["address"],
-        "note": "translates to 'dual carriageway'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Av",
-            "Avd",
-            "Avda",
-            "Avnda",
-            "Avenida",
-            "Avinguda"
-        ],
-        "full": "Avenida",
-        "canonical": "Av",
-        "onlyLayers": ["address"],
-        "note": "translates to 'avenue'; 'avenida' is Castillian whereas 'avinguda' is Catalan'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "B",
-            "Bda",
-            "Banda"
-        ],
-        "full": "Banda",
-        "canonical": "B"
-    },
-    {
-        "tokens": [
-            "Balnr",
-            "Balneario"
-        ],
-        "full": "Balneario",
-        "canonical": "Balnr"
-    },
-    {
-        "tokens": [
-            "Barda",
-            "Barriada"
-        ],
-        "full": "Barriada",
-        "canonical": "Barda"
-    },
-    {
-        "tokens": [
-            "Bjada",
-            "Bajada"
-        ],
-        "full": "Bajada",
-        "canonical": "Bjada"
-    },
-    {
-        "tokens": [
-            "Blque",
-            "Bloque"
-        ],
-        "full": "Bloque",
-        "canonical": "Blque"
-    },
-    {
-        "tokens": [
-            "Bo",
-            "Barro",
-            "Barrio"
-        ],
-        "full": "Barrio",
-        "canonical": "Bo",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Bqllo",
-            "Barranquil"
-        ],
-        "full": "Barranquil",
-        "canonical": "Bqllo"
-    },
-    {
-        "tokens": [
-            "Branc",
-            "Barranco"
-        ],
-        "full": "Barranco",
-        "canonical": "Branc"
-    },
-    {
-        "tokens": [
-            "Brzal",
-            "Brazal"
-        ],
-        "full": "Brazal",
-        "canonical": "Brzal"
-    },
-    {
-        "tokens": [
-            "Bulev",
-            "Bulevar"
-        ],
-        "full": "Bulevar",
-        "canonical": "Bulev",
-        "onlyLayers": ["address"],
-        "note": "translates to 'boulevard'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Ca",
-            "Canada"
-        ],
-        "full": "Canada",
-        "canonical": "Ca",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Campg",
-            "Camping"
-        ],
-        "full": "Camping",
-        "canonical": "Campg"
-    },
-    {
-        "tokens": [
-            "Cant",
-            "Cantón"
-        ],
-        "full": "Cantón",
-        "canonical": "Cant"
-    },
-    {
-        "tokens": [
-            "Canti",
-            "Cantina"
-        ],
-        "full": "Cantina",
-        "canonical": "Canti"
-    },
-    {
-        "tokens": [
-            "Cantr",
-            "Cantera"
-        ],
-        "full": "Cantera",
-        "canonical": "Cantr"
-    },
-    {
-        "tokens": [
-            "Cbtiz",
-            "Cobertizo"
-        ],
-        "full": "Cobertizo",
-        "canonical": "Cbtiz"
-    },
-    {
-        "tokens": [
-            "Ccvcn",
-            "Circunvalación"
-        ],
-        "full": "Circunvalación",
-        "canonical": "Ccvcn"
-    },
-    {
-        "tokens": [
-            "Chlet",
-            "Chalet"
-        ],
-        "full": "Chalet",
-        "canonical": "Chlet"
-    },
-    {
-        "tokens": [
-            "Cint",
-            "Cinturón"
-        ],
-        "full": "Cinturón",
-        "canonical": "Cint"
-    },
-    {
-        "tokens": [
-            "Cjla",
-            "Callejuela"
-        ],
-        "full": "Callejuela",
-        "canonical": "Cjla",
-        "onlyLayers": ["address"],
-        "note": "translates to 'lane'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Cj",
-            "Cjon",
-            "Cllon",
-            "Callej",
-            "Callejón"
-        ],
-        "full": "Callejón",
-        "canonical": "Cj",
-        "onlyLayers": ["address"],
-        "note": "translates to 'alley'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Cjto",
-            "Conjunto"
-        ],
-        "full": "Conjunto",
-        "canonical": "Cjto"
-    },
-    {
-        "tokens": [
-            "Cl",
-            "Cll",
-            "Calle",
-            "Carrer",
-            "Carrera"
-        ],
-        "full": "Calle",
-        "canonical": "Cl",
-        "onlyLayers": ["address"],
-        "note": "translates to 'street' ('carrer' is Catalan)",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Cl",
-            "Cl Quarter"
-        ],
-        "full": "Cl Quarter",
-        "canonical": "Cl",
-        "onlyLayers": [
-            "address"
-        ],
-        "note": "translates to 'street' ('carrer' is Catalan)",
-        "type": "way",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
-            "Cllja",
-            "Calleja"
-        ],
-        "full": "Calleja",
-        "canonical": "Cllja",
-        "onlyLayers": ["address"],
-        "note": "translates to 'lane'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Cllzo",
-            "Callizo"
-        ],
-        "full": "Callizo",
-        "canonical": "Cllzo"
-    },
-    {
-        "tokens": [
-            "Cm",
-            "Cno",
-            "Cam",
-            "Cmno",
-            "Cami",
-            "Camino"
-        ],
-        "full": "Camino",
-        "canonical": "Cm",
-        "onlyLayers": ["address"],
-        "note": "translates to 'path'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Cnvto",
-            "Convento"
-        ],
-        "full": "Convento",
-        "canonical": "Cnvto"
-    },
-    {
-        "tokens": [
-            "Col",
-            "Colonia"
-        ],
-        "full": "Colonia",
-        "canonical": "Col"
-    },
-    {
-        "tokens": [
-            "Compj",
-            "Complejo"
-        ],
-        "full": "Complejo",
-        "canonical": "Compj"
-    },
-    {
-        "tokens": [
-            "Coop",
-            "Cooperativa"
-        ],
-        "full": "Cooperativa",
-        "canonical": "Coop"
-    },
-    {
-        "tokens": [
-            "Coste",
-            "Costera"
-        ],
-        "full": "Costera",
-        "canonical": "Coste"
-    },
-    {
-        "tokens": [
-            "Cra",
-            "Carrera"
-        ],
-        "full": "Carrera",
-        "canonical": "Cra"
-    },
-    {
-        "tokens": [
-            "Cro",
-            "Carrero"
-        ],
-        "full": "Carrero",
-        "canonical": "Cro"
-    },
-    {
-        "tokens": [
-            "Crral",
-            "Corral"
-        ],
-        "full": "Corral",
-        "canonical": "Crral"
-    },
-    {
-        "tokens": [
-            "Crrdo",
-            "Corredor"
-        ],
-        "full": "Corredor",
-        "canonical": "Crrdo"
-    },
-    {
-        "tokens": [
-            "Crril",
-            "Carril"
-        ],
-        "full": "Carril",
-        "canonical": "Crril",
-        "onlyLayers": ["address"],
-        "note": "translates to 'lane'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Crrlo",
-            "Corralillo"
-        ],
-        "full": "Corralillo",
-        "canonical": "Crrlo"
-    },
-    {
-        "tokens": [
-            "Crtil",
-            "Carretil"
-        ],
-        "full": "Carretil",
-        "canonical": "Crtil"
-    },
-    {
-        "tokens": [
-            "Crtjo",
-            "Cortijo"
-        ],
-        "full": "Cortijo",
-        "canonical": "Crtjo"
-    },
-    {
-        "tokens": [
-            "Csrio",
-            "Caserío"
-        ],
-        "full": "Caserío",
-        "canonical": "Csrio"
-    },
-    {
-        "tokens": [
-            "Cstan",
-            "Costanilla"
-        ],
-        "full": "Costanilla",
-        "canonical": "Cstan"
-    },
-    {
-        "tokens": [
-            "Cr",
-            "Ctra",
-            "Carretera"
-        ],
-        "full": "Carretera",
-        "canonical": "Cr",
-        "onlyLayers": ["address"],
-        "note": "translates to 'highway'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Ctrin",
-            "Carreterín"
-        ],
-        "full": "Carreterín",
-        "canonical": "Ctrin",
-        "onlyLayers": ["address"],
-        "note": "translates to 'road'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Cuadr",
-            "Cuadra"
-        ],
-        "full": "Cuadra",
-        "canonical": "Cuadr"
-    },
-    {
-        "tokens": [
-            "Custa",
-            "Cuesta"
-        ],
-        "full": "Cuesta",
-        "canonical": "Custa"
-    },
-    {
-        "tokens": [
-            "Czada",
-            "Calzada"
-        ],
-        "full": "Calzada",
-        "canonical": "Czada",
-        "onlyLayers": ["address"],
-        "note": "translates to 'road'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "d",
-            "de"
-        ],
-        "full": "de",
-        "canonical": "de",
-        "type": "determiner"
-    },
-    {
-        "tokens": [
-            "en"
-        ],
-        "full": "en",
-        "canonical": "en",
-        "type": "determiner",
-        "note": "to handle d'en"
-    },
-    {
-        "tokens": [
-            "dr"
-        ],
-        "full": "dr",
-        "canonical": "dr",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "ds"
-        ],
-        "full": "ds",
-        "canonical": "ds",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "del"
-        ],
-        "full": "del",
-        "canonical": "del",
-        "type": "determiner"
-    },
-    {
-        "tokens": [
-            "dels"
-        ],
-        "full": "dels",
-        "canonical": "dels",
-        "type": "determiner"
-    },
-    {
-        "tokens": [
-            "don",
-            "dona"
-        ],
-        "full": "dona",
-        "canonical": "don",
-        "type": "determiner"
-    },
-    {
-        "tokens": [
-            "Demar",
-            "Demarcación"
-        ],
-        "full": "Demarcación",
-        "canonical": "Demar"
-    },
-    {
-        "tokens": [
-            "Dhsa",
-            "Dehesa"
-        ],
-        "full": "Dehesa",
-        "canonical": "Dhsa"
-    },
-    {
-        "tokens": [
-            "Diag",
-            "Diagonal"
-        ],
-        "full": "Diagonal",
-        "canonical": "Diag"
-    },
-    {
-        "tokens": [
-            "Disem",
-            "Diseminado",
-            "Diseminados"
-        ],
-        "full": "Diseminado",
-        "canonical": "Disem"
-    },
-    {
-        "tokens": [
-            "el"
-        ],
-        "full": "el",
-        "canonical": "el",
-        "type": "determiner"
-    },
-    {
-        "tokens": [
-            "Edifc",
-            "Edificio"
-        ],
-        "full": "Edificio",
-        "canonical": "Edifc"
-    },
-    {
-        "tokens": [
-            "Empr",
-            "Empresa"
-        ],
-        "full": "Empresa",
-        "canonical": "Empr"
-    },
-    {
-        "tokens": [
-            "Entd",
-            "Entrada"
-        ],
-        "full": "Entrada",
-        "canonical": "Entd"
-    },
-    {
-        "tokens": [
-            "Esca",
-            "Escalera"
-        ],
-        "full": "Escalera",
-        "canonical": "Esca"
-    },
-    {
-        "tokens": [
-            "Escal",
-            "Escalinata"
-        ],
-        "full": "Escalinata",
-        "canonical": "Escal"
-    },
-    {
-        "tokens": [
-            "Eslda",
-            "Espalda"
-        ],
-        "full": "Espalda",
-        "canonical": "Eslda"
-    },
-    {
-        "tokens": [
-            "Estcn",
-            "Estación"
-        ],
-        "full": "Estación",
-        "canonical": "Estcn"
-    },
-    {
-        "tokens": [
-            "Estda",
-            "Estrada"
-        ],
-        "full": "Estrada",
-        "canonical": "Estda"
-    },
-    {
-        "tokens": [
-            "Expla",
-            "Explanada"
-        ],
-        "full": "Explanada",
-        "canonical": "Expla"
-    },
-    {
-        "tokens": [
-            "Extrm",
-            "Extramuros"
-        ],
-        "full": "Extramuros",
-        "canonical": "Extrm"
-    },
-    {
-        "tokens": [
-            "Extrr",
-            "Extrarradio"
-        ],
-        "full": "Extrarradio",
-        "canonical": "Extrr"
-    },
-    {
-        "tokens": [
-            "Fca",
-            "Fbrca",
-            "Fábrica"
-        ],
-        "full": "Fábrica",
-        "canonical": "Fca"
-    },
-    {
-        "tokens": [
-            "Gale",
-            "Galería"
-        ],
-        "full": "Galería",
-        "canonical": "Gale"
-    },
-    {
-        "tokens": [
-            "Granj",
-            "Granja"
-        ],
-        "full": "Granja",
-        "canonical": "Granj"
-    },
-    {
-        "tokens": [
-            "Gta",
-            "Glorieta"
-        ],
-        "full": "Glorieta",
-        "canonical": "Gta"
-    },
-    {
-        "tokens": [
-            "Hipod",
-            "Hipódromo"
-        ],
-        "full": "Hipódromo",
-        "canonical": "Hipod"
-    },
-    {
-        "tokens": [
-            "Jdin",
-            "Jardín"
-        ],
-        "full": "Jardín",
-        "canonical": "Jdin"
-    },
-    {
-        "tokens": [
-            "K",
-            "Kalea",
-            "Karrika"
-        ],
-        "full": "Karrika",
-        "canonical": "K",
-        "note": "translates to 'street' ('kalea' is Catalan)",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "La",
-            "L"
-        ],
-        "full": "La",
-        "canonical": "La",
-        "type": "determiner"
-    },
-    {
-        "tokens": [
-            "Les"
-        ],
-        "full": "Les",
-        "canonical": "Les",
-        "type": "determiner"
-    },
-    {
-        "tokens": [
-            "Las"
-        ],
-        "full": "Las",
-        "canonical": "Las",
-        "type": "determiner"
-    },
-    {
-        "tokens": [
-            "Los"
-        ],
-        "full": "Los",
-        "canonical": "Los",
-        "type": "determiner"
-    },
-    {
-        "tokens": [
-            "Ldera",
-            "Ladera"
-        ],
-        "full": "Ladera",
-        "canonical": "Ldera"
-    },
-    {
-        "tokens": [
-            "Llnra",
-            "Llanura"
-        ],
-        "full": "Llanura",
-        "canonical": "Llnra"
-    },
-    {
-        "tokens": [
-            "Malec",
-            "Malecón"
-        ],
-        "full": "Malecón",
-        "canonical": "Malec"
-    },
-    {
-        "tokens": [
-            "Martine",
-            "Martinez"
-        ],
-        "full": "Martinez",
-        "canonical": "Martine"
-    },
-    {
-        "tokens": [
-            "Merc",
-            "Mercado"
-        ],
-        "full": "Mercado",
-        "canonical": "Merc"
-    },
-    {
-        "tokens": [
-            "Mrdor",
-            "Mirador"
-        ],
-        "full": "Mirador",
-        "canonical": "Mrdor"
-    },
-    {
-        "tokens": [
-            "Mtrio",
-            "Monasterio"
-        ],
-        "full": "Monasterio",
-        "canonical": "Mtrio"
-    },
-    {
-        "tokens": [
-            "Muell",
-            "Muelle"
-        ],
-        "full": "Muelle",
-        "canonical": "Muell"
-    },
-    {
-        "tokens": [
-            "N"
-        ],
-        "full": "N",
-        "canonical": "N",
-        "type": "determiner",
-        "note": "as part of a street n' (example: n'arai)"
-    },
-    {
-        "tokens": [
-            "Ncleo",
-            "Núcleo"
-        ],
-        "full": "Núcleo",
-        "canonical": "Ncleo"
-    },
-    {
-        "tokens": [
-            "Palac",
-            "Palacio"
-        ],
-        "full": "Palacio",
-        "canonical": "Palac"
-    },
-    {
-        "tokens": [
-            "Pant",
-            "Pantano"
-        ],
-        "full": "Pantano",
-        "canonical": "Pant"
-    },
-    {
-        "tokens": [
-            "Parti",
-            "Particular"
-        ],
-        "full": "Particular",
-        "canonical": "Parti"
-    },
-    {
-        "tokens": [
-            "Pbdo",
-            "Poblado"
-        ],
-        "full": "Poblado",
-        "canonical": "Pbdo"
-    },
-    {
-        "tokens": [
-            "Pblo",
-            "Pueblo"
-        ],
-        "full": "Pueblo",
-        "canonical": "Pblo"
-    },
-    {
-        "tokens": [
-            "Pl",
-            "Pz",
-            "Pza",
-            "Plza",
-            "Plaça",
-            "Plaza"
-        ],
-        "full": "Plaza",
-        "canonical": "Pl"
-    },
-    {
-        "tokens": [
-            "Plzla",
-            "Plazuela"
-        ],
-        "full": "Plazuela",
-        "canonical": "Plzla"
-    },
-    {
-        "tokens": [
-            "Pnte",
-            "Puente"
-        ],
-        "full": "Puente",
-        "canonical": "Pnte"
-    },
-    {
-        "tokens": [
-            "Po",
-            "Ps",
-            "Pso",
-            "Paseo",
-            "Passeig"
-        ],
-        "full": "Paseo",
-        "canonical": "Po",
-        "onlyLayers": ["address"],
-        "note": "translates to 'walk'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Polig",
-            "Polígono"
-        ],
-        "full": "Polígono",
-        "canonical": "Polig"
-    },
-    {
-        "tokens": [
-            "Pque",
-            "Parque"
-        ],
-        "full": "Parque",
-        "canonical": "Pque"
-    },
-    {
-        "tokens": [
-            "Praje",
-            "Paraje"
-        ],
-        "full": "Paraje",
-        "canonical": "Praje"
-    },
-    {
-        "tokens": [
-            "Prol",
-            "Prolongación"
-        ],
-        "full": "Prolongación",
-        "canonical": "Prol"
-    },
-    {
-        "tokens": [
-            "Prtal",
-            "Portal"
-        ],
-        "full": "Portal",
-        "canonical": "Prtal"
-    },
-    {
-        "tokens": [
-            "Prtco",
-            "Pórtico"
-        ],
-        "full": "Pórtico",
-        "canonical": "Prtco"
-    },
-    {
-        "tokens": [
-            "Przla",
-            "Prazuela"
-        ],
-        "full": "Prazuela",
-        "canonical": "Przla"
-    },
-    {
-        "tokens": [
-            "Psaje",
-            "Pasaje"
-        ],
-        "full": "Pasaje",
-        "canonical": "Psaje",
-        "onlyLayers": ["address"],
-        "note": "translates to 'passage'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "pj",
-            "passatge"
-        ],
-        "full": "passatge",
-        "canonical": "pj",
-        "onlyLayers": ["address"],
-        "note": "translates to 'passatge'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Psllo",
-            "Pasillo"
-        ],
-        "full": "Pasillo",
-        "canonical": "Psllo"
-    },
-    {
-        "tokens": [
-            "Pta",
-            "Puerta"
-        ],
-        "full": "Puerta",
-        "canonical": "Pta"
-    },
-    {
-        "tokens": [
-            "Ptda",
-            "Partida"
-        ],
-        "full": "Partida",
-        "canonical": "Ptda"
-    },
-    {
-        "tokens": [
-            "Ptilo",
-            "Portillo"
-        ],
-        "full": "Portillo",
-        "canonical": "Ptilo"
-    },
-    {
-        "tokens": [
-            "Pto",
-            "Puerto"
-        ],
-        "full": "Puerto",
-        "canonical": "Pto"
-    },
-    {
-        "tokens": [
-            "Pzo",
-            "Pasadizo"
-        ],
-        "full": "Pasadizo",
-        "canonical": "Pzo"
-    },
-    {
-        "tokens": [
-            "Pzta",
-            "Plazoleta"
-        ],
-        "full": "Plazoleta",
-        "canonical": "Pzta"
-    },
-    {
-        "tokens": [
-            "Rampa",
-            "Rampla"
-        ],
-        "full": "Rampla",
-        "canonical": "Rampa"
-    },
-    {
-        "tokens": [
-            "Rbla",
-            "Rambla"
-        ],
-        "full": "Rambla",
-        "canonical": "Rbla"
-    },
-    {
-        "tokens": [
-            "Rbra",
-            "Ribera",
-            "Rivera"
-        ],
-        "full": "Ribera",
-        "canonical": "Rbra"
-    },
-    {
-        "tokens": [
-            "Rcda",
-            "Rinconada"
-        ],
-        "full": "Rinconada",
-        "canonical": "Rcda"
-    },
-    {
-        "tokens": [
-            "Rcon",
-            "Rincón"
-        ],
-        "full": "Rincón",
-        "canonical": "Rcon"
-    },
-    {
-        "tokens": [
-            "Rd",
-            "Ronda"
-        ],
-        "full": "Ronda",
-        "canonical": "Rd"
-    },
-    {
-        "tokens": [
-            "Resid",
-            "Residencial"
-        ],
-        "full": "Residencial",
-        "canonical": "Resid"
-    },
-    {
-        "tokens": [
-            "Rtda",
-            "Rotonda"
-        ],
-        "full": "Rotonda",
-        "canonical": "Rtda",
-        "onlyLayers": ["address"],
-        "note": "translates to 'roundabout'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Ru",
-            "Rúa"
-        ],
-        "full": "Rúa",
-        "canonical": "Ru"
-    },
-    {
-        "tokens": [
-            "S",
-            "San",
-            "Sant"        
-        ],
-        "full": "San",
-        "canonical": "S"
-    },
-    {
-        "tokens": [
-            "Sanat",
-            "Sanatorio"
-        ],
-        "full": "Sanatorio",
-        "canonical": "Sanat"
-    },
-    {
-        "tokens": [
-            "Santu",
-            "Santuario"
-        ],
-        "full": "Santuario",
-        "canonical": "Santu"
-    },
-    {
-        "tokens": [
-            "Sbida",
-            "Subida"
-        ],
-        "full": "Subida",
-        "canonical": "Sbida"
-    },
-    {
-        "tokens": [
-            "Sect",
-            "Sector"
-        ],
-        "full": "Sector",
-        "canonical": "Sect"
-    },
-    {
-        "tokens": [
-            "Sedra",
-            "Sendera"
-        ],
-        "full": "Sendera",
-        "canonical": "Sedra"
-    },
-    {
-        "tokens": [
-            "Send",
-            "Sendero"
-        ],
-        "full": "Sendero",
-        "canonical": "Send"
-    },
-    {
-        "tokens": [
-            "Sta",
-            "Santa"
-        ],
-        "full": "Santa",
-        "canonical": "Sta"
-    },
-    {
-        "tokens": [
-            "Trans",
-            "Tránsito"
-        ],
-        "full": "Tránsito",
-        "canonical": "Trans"
-    },
-    {
-        "tokens": [
-            "Tras",
-            "Trasera"
-        ],
-        "full": "Trasera",
-        "canonical": "Tras"
-    },
-    {
-        "tokens": [
-            "Tr",
-            "Trva",
-            "Travesia"
-        ],
-        "full": "Travesia",
-        "canonical": "Tr",
-        "type": "way"
-
-    },
-    {
-        "tokens": [
-            "To",
-            "Trrnt",
-            "Torrente"
-        ],
-        "full": "Torrente",
-        "canonical": "To",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Trval",
-            "Transversal"
-        ],
-        "full": "Transversal",
-        "canonical": "Trval"
-    },
-    {
-        "tokens": [
-            "ur"
-        ],
-        "full": "ur",
-        "canonical": "ur",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "Urb",
-            "Urbanización"
-        ],
-        "full": "Urbanización",
-        "canonical": "Urb"
-    },
-    {
-        "tokens": [
-            "Vcto",
-            "Viaducto"
-        ],
-        "full": "Viaducto",
-        "canonical": "Vcto"
-    },
-    {
-        "tokens": [
-            "Vecin",
-            "Vecindario"
-        ],
-        "full": "Vecindario",
-        "canonical": "Vecin"
-    },
-    {
-        "tokens": [
-            "Ver",
-            "Vreda",
-            "Vereda"
-        ],
-        "full": "Vereda",
-        "canonical": "Ver"
-    },
-    {
-        "tokens": [
-            "Vvdas",
-            "Viviendas"
-        ],
-        "full": "Viviendas",
-        "canonical": "Vvdas"
-    },
-    {
-        "tokens": [
-            "CH",
-            "Camino hondo"
-        ],
-        "full": "Camino hondo",
-        "canonical": "CH",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
-            "CN",
-            "Camino nuevo"
-        ],
-        "full": "Camino nuevo",
-        "canonical": "CN",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
-            "CV",
-            "Camino viejo"
-        ],
-        "full": "Camino viejo",
-        "canonical": "CV",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
-            "GV",
-            "Gran Vía"
-        ],
-        "full": "Gran Vía",
-        "canonical": "GV",
-        "spanBoundaries": 1,
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "PI",
-            "Pgind"
-        ],
-        "full": "Pgind",
-        "canonical": "PI"
-    },
-    {
-        "tokens": [
-            "PI",
-            "Polígono industrial"
-        ],
-        "full": "Polígono industrial",
-        "canonical": "PI",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
-            "pk",
-            "Punto kilométrico"
-        ],
-        "full": "Punto kilométrico",
-        "canonical": "pk",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
-            "Psmar",
-            "Paseo marítimo"
-        ],
-        "full": "Paseo marítimo",
-        "canonical": "Psmar",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
-            "y"
-        ],
-        "full": "y",
-        "canonical": "y",
-        "type": "determiner"
-    }
+  {
+    "tokens": ["1", "un", "uno", "una"],
+    "full": "uno",
+    "canonical": "1",
+    "type": "number"
+  },
+  {
+    "tokens": ["2", "dos"],
+    "full": "dos",
+    "canonical": "2",
+    "type": "number"
+  },
+  {
+    "tokens": ["3", "tres"],
+    "full": "tres",
+    "canonical": "3",
+    "type": "number"
+  },
+  {
+    "tokens": ["4", "quatre", "cuatro"],
+    "full": "cuatro",
+    "canonical": "4",
+    "type": "number"
+  },
+  {
+    "tokens": ["5", "cinc", "cinco"],
+    "full": "cinco",
+    "canonical": "5",
+    "type": "number"
+  },
+  {
+    "tokens": ["6", "sis", "seis"],
+    "full": "seis",
+    "canonical": "6",
+    "type": "number"
+  },
+  {
+    "tokens": ["7", "set", "siete"],
+    "full": "siete",
+    "canonical": "7",
+    "type": "number"
+  },
+  {
+    "tokens": ["8", "vuit", "ocho"],
+    "full": "ocho",
+    "canonical": "8",
+    "type": "number"
+  },
+  {
+    "tokens": ["9", "nou", "nueve"],
+    "full": "nueve",
+    "canonical": "9",
+    "type": "number"
+  },
+  {
+    "tokens": ["10", "deu", "diez"],
+    "full": "diez",
+    "canonical": "10",
+    "type": "number"
+  },
+  {
+    "tokens": ["11", "onze", "once"],
+    "full": "once",
+    "canonical": "11",
+    "type": "number"
+  },
+  {
+    "tokens": ["12", "dotze", "doce"],
+    "full": "doce",
+    "canonical": "12",
+    "type": "number"
+  },
+  {
+    "tokens": ["13", "tretze", "trece"],
+    "full": "trece",
+    "canonical": "13",
+    "type": "number"
+  },
+  {
+    "tokens": ["14", "catorze", "catorce"],
+    "full": "catorce",
+    "canonical": "14",
+    "type": "number"
+  },
+  {
+    "tokens": ["15", "quinze", "quince"],
+    "full": "quince",
+    "canonical": "15",
+    "type": "number"
+  },
+  {
+    "tokens": ["16", "setze", "dieciseis"],
+    "full": "dieciseis",
+    "canonical": "16",
+    "type": "number"
+  },
+  {
+    "tokens": ["17", "disset", "diecisiete"],
+    "full": "diecisiete",
+    "canonical": "17",
+    "type": "number"
+  },
+  {
+    "tokens": ["18", "divuit", "dieciocho"],
+    "full": "dieciocho",
+    "canonical": "18",
+    "type": "number"
+  },
+  {
+    "tokens": ["19", "dinou", "diecinueve"],
+    "full": "diecinueve",
+    "canonical": "19",
+    "type": "number"
+  },
+  {
+    "tokens": ["20", "vint", "veinte"],
+    "full": "veinte",
+    "canonical": "20",
+    "type": "number"
+  },
+  {
+    "tokens": ["acces", "acceso"],
+    "full": "acceso",
+    "canonical": "acces"
+  },
+  {
+    "tokens": ["aceq", "acequia"],
+    "full": "acequia",
+    "canonical": "aceq"
+  },
+  {
+    "tokens": ["alam", "alameda"],
+    "full": "alameda",
+    "canonical": "alam"
+  },
+  {
+    "tokens": ["alque", "alquería"],
+    "full": "alquería",
+    "canonical": "alque"
+  },
+  {
+    "tokens": ["andad", "andador"],
+    "full": "andador",
+    "canonical": "andad"
+  },
+  {
+    "tokens": ["angta", "angosta"],
+    "full": "angosta",
+    "canonical": "angta"
+  },
+  {
+    "tokens": ["apdro", "apeadero"],
+    "full": "apeadero",
+    "canonical": "apdro"
+  },
+  {
+    "tokens": ["aptos", "apartamentos"],
+    "full": "apartamentos",
+    "canonical": "aptos"
+  },
+  {
+    "tokens": ["arb", "arboleda"],
+    "full": "arboleda",
+    "canonical": "arb"
+  },
+  {
+    "tokens": ["arral", "arrabal"],
+    "full": "arrabal",
+    "canonical": "arral"
+  },
+  {
+    "tokens": ["arry", "arroyo"],
+    "full": "arroyo",
+    "canonical": "arry"
+  },
+  {
+    "tokens": ["auto", "autopista"],
+    "full": "autopista",
+    "canonical": "auto",
+    "onlylayers": ["address"],
+    "note": "translates to 'freeway'",
+    "type": "way"
+  },
+  {
+    "tokens": ["autov", "autovía"],
+    "full": "autovía",
+    "canonical": "autov",
+    "onlylayers": ["address"],
+    "note": "translates to 'dual carriageway'",
+    "type": "way"
+  },
+  {
+    "tokens": ["av", "avd", "avda", "avnda", "avenida", "avinguda"],
+    "full": "avenida",
+    "canonical": "av",
+    "onlylayers": ["address"],
+    "note": "translates to 'avenue'; 'avenida' is castillian whereas 'avinguda' is catalan'",
+    "type": "way"
+  },
+  {
+    "tokens": ["b", "bda", "banda"],
+    "full": "banda",
+    "canonical": "b"
+  },
+  {
+    "tokens": ["balnr", "balneario"],
+    "full": "balneario",
+    "canonical": "balnr"
+  },
+  {
+    "tokens": ["barda", "barriada"],
+    "full": "barriada",
+    "canonical": "barda"
+  },
+  {
+    "tokens": ["bjada", "bajada"],
+    "full": "bajada",
+    "canonical": "bjada"
+  },
+  {
+    "tokens": ["blque", "bloque"],
+    "full": "bloque",
+    "canonical": "blque"
+  },
+  {
+    "tokens": ["bo", "barro", "barrio"],
+    "full": "barrio",
+    "canonical": "bo",
+    "type": "way"
+  },
+  {
+    "tokens": ["bqllo", "barranquil"],
+    "full": "barranquil",
+    "canonical": "bqllo"
+  },
+  {
+    "tokens": ["branc", "barranco"],
+    "full": "barranco",
+    "canonical": "branc"
+  },
+  {
+    "tokens": ["brzal", "brazal"],
+    "full": "brazal",
+    "canonical": "brzal"
+  },
+  {
+    "tokens": ["bulev", "bulevar"],
+    "full": "bulevar",
+    "canonical": "bulev",
+    "onlylayers": ["address"],
+    "note": "translates to 'boulevard'",
+    "type": "way"
+  },
+  {
+    "tokens": ["ca", "canada"],
+    "full": "canada",
+    "canonical": "ca",
+    "type": "way"
+  },
+  {
+    "tokens": ["campg", "camping"],
+    "full": "camping",
+    "canonical": "campg"
+  },
+  {
+    "tokens": ["cant", "cantón"],
+    "full": "cantón",
+    "canonical": "cant"
+  },
+  {
+    "tokens": ["canti", "cantina"],
+    "full": "cantina",
+    "canonical": "canti"
+  },
+  {
+    "tokens": ["cantr", "cantera"],
+    "full": "cantera",
+    "canonical": "cantr"
+  },
+  {
+    "tokens": ["cbtiz", "cobertizo"],
+    "full": "cobertizo",
+    "canonical": "cbtiz"
+  },
+  {
+    "tokens": ["ccvcn", "circunvalación"],
+    "full": "circunvalación",
+    "canonical": "ccvcn"
+  },
+  {
+    "tokens": ["chlet", "chalet"],
+    "full": "chalet",
+    "canonical": "chlet"
+  },
+  {
+    "tokens": ["cint", "cinturón"],
+    "full": "cinturón",
+    "canonical": "cint"
+  },
+  {
+    "tokens": ["cjla", "callejuela"],
+    "full": "callejuela",
+    "canonical": "cjla",
+    "onlylayers": ["address"],
+    "note": "translates to 'lane'",
+    "type": "way"
+  },
+  {
+    "tokens": ["cj", "cjon", "cllon", "callej", "callejón"],
+    "full": "callejón",
+    "canonical": "cj",
+    "onlylayers": ["address"],
+    "note": "translates to 'alley'",
+    "type": "way"
+  },
+  {
+    "tokens": ["cjto", "conjunto"],
+    "full": "conjunto",
+    "canonical": "cjto"
+  },
+  {
+    "tokens": ["cl", "cll", "calle", "carrer", "carrera"],
+    "full": "calle",
+    "canonical": "cl",
+    "onlylayers": ["address"],
+    "note": "translates to 'street' ('carrer' is catalan)",
+    "type": "way"
+  },
+  {
+    "tokens": ["cl", "cl quarter"],
+    "full": "cl quarter",
+    "canonical": "cl",
+    "onlylayers": ["address"],
+    "note": "translates to 'street' ('carrer' is catalan)",
+    "type": "way",
+    "spanboundaries": 1
+  },
+  {
+    "tokens": ["cllja", "calleja"],
+    "full": "calleja",
+    "canonical": "cllja",
+    "onlylayers": ["address"],
+    "note": "translates to 'lane'",
+    "type": "way"
+  },
+  {
+    "tokens": ["cllzo", "callizo"],
+    "full": "callizo",
+    "canonical": "cllzo"
+  },
+  {
+    "tokens": ["cm", "cno", "cam", "cmno", "cami", "camino"],
+    "full": "camino",
+    "canonical": "cm",
+    "onlylayers": ["address"],
+    "note": "translates to 'path'",
+    "type": "way"
+  },
+  {
+    "tokens": ["cnvto", "convento"],
+    "full": "convento",
+    "canonical": "cnvto"
+  },
+  {
+    "tokens": ["col", "colonia"],
+    "full": "colonia",
+    "canonical": "col"
+  },
+  {
+    "tokens": ["compj", "complejo"],
+    "full": "complejo",
+    "canonical": "compj"
+  },
+  {
+    "tokens": ["coop", "cooperativa"],
+    "full": "cooperativa",
+    "canonical": "coop"
+  },
+  {
+    "tokens": ["coste", "costera"],
+    "full": "costera",
+    "canonical": "coste"
+  },
+  {
+    "tokens": ["cra", "carrera"],
+    "full": "carrera",
+    "canonical": "cra"
+  },
+  {
+    "tokens": ["cro", "carrero"],
+    "full": "carrero",
+    "canonical": "cro"
+  },
+  {
+    "tokens": ["crral", "corral"],
+    "full": "corral",
+    "canonical": "crral"
+  },
+  {
+    "tokens": ["crrdo", "corredor"],
+    "full": "corredor",
+    "canonical": "crrdo"
+  },
+  {
+    "tokens": ["crril", "carril"],
+    "full": "carril",
+    "canonical": "crril",
+    "onlylayers": ["address"],
+    "note": "translates to 'lane'",
+    "type": "way"
+  },
+  {
+    "tokens": ["crrlo", "corralillo"],
+    "full": "corralillo",
+    "canonical": "crrlo"
+  },
+  {
+    "tokens": ["crtil", "carretil"],
+    "full": "carretil",
+    "canonical": "crtil"
+  },
+  {
+    "tokens": ["crtjo", "cortijo"],
+    "full": "cortijo",
+    "canonical": "crtjo"
+  },
+  {
+    "tokens": ["csrio", "caserío"],
+    "full": "caserío",
+    "canonical": "csrio"
+  },
+  {
+    "tokens": ["cstan", "costanilla"],
+    "full": "costanilla",
+    "canonical": "cstan"
+  },
+  {
+    "tokens": ["cr", "ctra", "carretera"],
+    "full": "carretera",
+    "canonical": "cr",
+    "onlylayers": ["address"],
+    "note": "translates to 'highway'",
+    "type": "way"
+  },
+  {
+    "tokens": ["ctrin", "carreterín"],
+    "full": "carreterín",
+    "canonical": "ctrin",
+    "onlylayers": ["address"],
+    "note": "translates to 'road'",
+    "type": "way"
+  },
+  {
+    "tokens": ["cuadr", "cuadra"],
+    "full": "cuadra",
+    "canonical": "cuadr"
+  },
+  {
+    "tokens": ["custa", "cuesta"],
+    "full": "cuesta",
+    "canonical": "custa"
+  },
+  {
+    "tokens": ["czada", "calzada"],
+    "full": "calzada",
+    "canonical": "czada",
+    "onlylayers": ["address"],
+    "note": "translates to 'road'",
+    "type": "way"
+  },
+  {
+    "tokens": ["d", "de"],
+    "full": "de",
+    "canonical": "de",
+    "type": "determiner"
+  },
+  {
+    "tokens": ["en"],
+    "full": "en",
+    "canonical": "en",
+    "type": "determiner",
+    "note": "to handle d'en"
+  },
+  {
+    "tokens": ["dr"],
+    "full": "dr",
+    "canonical": "dr",
+    "type": "way"
+  },
+  {
+    "tokens": ["ds"],
+    "full": "ds",
+    "canonical": "ds",
+    "type": "way"
+  },
+  {
+    "tokens": ["del"],
+    "full": "del",
+    "canonical": "del",
+    "type": "determiner"
+  },
+  {
+    "tokens": ["dels"],
+    "full": "dels",
+    "canonical": "dels",
+    "type": "determiner"
+  },
+  {
+    "tokens": ["don", "dona"],
+    "full": "dona",
+    "canonical": "don",
+    "type": "determiner"
+  },
+  {
+    "tokens": ["demar", "demarcación"],
+    "full": "demarcación",
+    "canonical": "demar"
+  },
+  {
+    "tokens": ["dhsa", "dehesa"],
+    "full": "dehesa",
+    "canonical": "dhsa"
+  },
+  {
+    "tokens": ["diag", "diagonal"],
+    "full": "diagonal",
+    "canonical": "diag"
+  },
+  {
+    "tokens": ["disem", "diseminado", "diseminados"],
+    "full": "diseminado",
+    "canonical": "disem"
+  },
+  {
+    "tokens": ["el"],
+    "full": "el",
+    "canonical": "el",
+    "type": "determiner"
+  },
+  {
+    "tokens": ["edifc", "edificio"],
+    "full": "edificio",
+    "canonical": "edifc"
+  },
+  {
+    "tokens": ["empr", "empresa"],
+    "full": "empresa",
+    "canonical": "empr"
+  },
+  {
+    "tokens": ["entd", "entrada"],
+    "full": "entrada",
+    "canonical": "entd"
+  },
+  {
+    "tokens": ["esca", "escalera"],
+    "full": "escalera",
+    "canonical": "esca"
+  },
+  {
+    "tokens": ["escal", "escalinata"],
+    "full": "escalinata",
+    "canonical": "escal"
+  },
+  {
+    "tokens": ["eslda", "espalda"],
+    "full": "espalda",
+    "canonical": "eslda"
+  },
+  {
+    "tokens": ["estcn", "estación"],
+    "full": "estación",
+    "canonical": "estcn"
+  },
+  {
+    "tokens": ["estda", "estrada"],
+    "full": "estrada",
+    "canonical": "estda"
+  },
+  {
+    "tokens": ["expla", "explanada"],
+    "full": "explanada",
+    "canonical": "expla"
+  },
+  {
+    "tokens": ["extrm", "extramuros"],
+    "full": "extramuros",
+    "canonical": "extrm"
+  },
+  {
+    "tokens": ["extrr", "extrarradio"],
+    "full": "extrarradio",
+    "canonical": "extrr"
+  },
+  {
+    "tokens": ["fca", "fbrca", "fábrica"],
+    "full": "fábrica",
+    "canonical": "fca"
+  },
+  {
+    "tokens": ["gale", "galería"],
+    "full": "galería",
+    "canonical": "gale"
+  },
+  {
+    "tokens": ["granj", "granja"],
+    "full": "granja",
+    "canonical": "granj"
+  },
+  {
+    "tokens": ["gta", "glorieta"],
+    "full": "glorieta",
+    "canonical": "gta"
+  },
+  {
+    "tokens": ["hipod", "hipódromo"],
+    "full": "hipódromo",
+    "canonical": "hipod"
+  },
+  {
+    "tokens": ["jdin", "jardín"],
+    "full": "jardín",
+    "canonical": "jdin"
+  },
+  {
+    "tokens": ["k", "kalea", "karrika"],
+    "full": "karrika",
+    "canonical": "k",
+    "note": "translates to 'street' ('kalea' is catalan)",
+    "type": "way"
+  },
+  {
+    "tokens": ["la", "l"],
+    "full": "la",
+    "canonical": "la",
+    "type": "determiner"
+  },
+  {
+    "tokens": ["les"],
+    "full": "les",
+    "canonical": "les",
+    "type": "determiner"
+  },
+  {
+    "tokens": ["las"],
+    "full": "las",
+    "canonical": "las",
+    "type": "determiner"
+  },
+  {
+    "tokens": ["los"],
+    "full": "los",
+    "canonical": "los",
+    "type": "determiner"
+  },
+  {
+    "tokens": ["lg", "lago"],
+    "full": "lago",
+    "canonical": "lg"
+  },
+  {
+    "tokens": ["ldera", "ladera"],
+    "full": "ladera",
+    "canonical": "ldera"
+  },
+  {
+    "tokens": ["llnra", "llanura"],
+    "full": "llanura",
+    "canonical": "llnra"
+  },
+  {
+    "tokens": ["malec", "malecón"],
+    "full": "malecón",
+    "canonical": "malec"
+  },
+  {
+    "tokens": ["martine", "martinez"],
+    "full": "martinez",
+    "canonical": "martine"
+  },
+  {
+    "tokens": ["merc", "mercado"],
+    "full": "mercado",
+    "canonical": "merc"
+  },
+  {
+    "tokens": ["mrdor", "mirador"],
+    "full": "mirador",
+    "canonical": "mrdor"
+  },
+  {
+    "tokens": ["mtrio", "monasterio"],
+    "full": "monasterio",
+    "canonical": "mtrio"
+  },
+  {
+    "tokens": ["muell", "muelle"],
+    "full": "muelle",
+    "canonical": "muell"
+  },
+  {
+    "tokens": ["n"],
+    "full": "n",
+    "canonical": "n",
+    "type": "determiner",
+    "note": "as part of a street n' (example: n'arai)"
+  },
+  {
+    "tokens": ["ncleo", "núcleo"],
+    "full": "núcleo",
+    "canonical": "ncleo"
+  },
+  {
+    "tokens": ["palac", "palacio"],
+    "full": "palacio",
+    "canonical": "palac"
+  },
+  {
+    "tokens": ["pant", "pantano"],
+    "full": "pantano",
+    "canonical": "pant"
+  },
+  {
+    "tokens": ["parti", "particular"],
+    "full": "particular",
+    "canonical": "parti"
+  },
+  {
+    "tokens": ["pbdo", "poblado"],
+    "full": "poblado",
+    "canonical": "pbdo"
+  },
+  {
+    "tokens": ["pblo", "pueblo"],
+    "full": "pueblo",
+    "canonical": "pblo"
+  },
+  {
+    "tokens": ["pl", "pz", "pza", "plza", "plaça", "plaza"],
+    "full": "plaza",
+    "canonical": "pl"
+  },
+  {
+    "tokens": ["plzla", "plazuela"],
+    "full": "plazuela",
+    "canonical": "plzla"
+  },
+  {
+    "tokens": ["pnte", "puente"],
+    "full": "puente",
+    "canonical": "pnte"
+  },
+  {
+    "tokens": ["po", "ps", "pso", "paseo", "passeig"],
+    "full": "paseo",
+    "canonical": "po",
+    "onlylayers": ["address"],
+    "note": "translates to 'walk'",
+    "type": "way"
+  },
+  {
+    "tokens": ["polig", "polígono"],
+    "full": "polígono",
+    "canonical": "polig"
+  },
+  {
+    "tokens": ["pque", "parque"],
+    "full": "parque",
+    "canonical": "pque"
+  },
+  {
+    "tokens": ["praje", "paraje"],
+    "full": "paraje",
+    "canonical": "praje"
+  },
+  {
+    "tokens": ["prol", "prolongación"],
+    "full": "prolongación",
+    "canonical": "prol"
+  },
+  {
+    "tokens": ["prtal", "portal"],
+    "full": "portal",
+    "canonical": "prtal"
+  },
+  {
+    "tokens": ["prtco", "pórtico"],
+    "full": "pórtico",
+    "canonical": "prtco"
+  },
+  {
+    "tokens": ["przla", "prazuela"],
+    "full": "prazuela",
+    "canonical": "przla"
+  },
+  {
+    "tokens": ["psaje", "pasaje"],
+    "full": "pasaje",
+    "canonical": "psaje",
+    "onlylayers": ["address"],
+    "note": "translates to 'passage'",
+    "type": "way"
+  },
+  {
+    "tokens": ["pj", "passatge"],
+    "full": "passatge",
+    "canonical": "pj",
+    "onlylayers": ["address"],
+    "note": "translates to 'passatge'",
+    "type": "way"
+  },
+  {
+    "tokens": ["psllo", "pasillo"],
+    "full": "pasillo",
+    "canonical": "psllo"
+  },
+  {
+    "tokens": ["pta", "puerta"],
+    "full": "puerta",
+    "canonical": "pta"
+  },
+  {
+    "tokens": ["ptda", "partida"],
+    "full": "partida",
+    "canonical": "ptda"
+  },
+  {
+    "tokens": ["ptilo", "portillo"],
+    "full": "portillo",
+    "canonical": "ptilo"
+  },
+  {
+    "tokens": ["pto", "puerto"],
+    "full": "puerto",
+    "canonical": "pto"
+  },
+  {
+    "tokens": ["pzo", "pasadizo"],
+    "full": "pasadizo",
+    "canonical": "pzo"
+  },
+  {
+    "tokens": ["pzta", "plazoleta"],
+    "full": "plazoleta",
+    "canonical": "pzta"
+  },
+  {
+    "tokens": ["rampa", "rampla"],
+    "full": "rampla",
+    "canonical": "rampa"
+  },
+  {
+    "tokens": ["rbla", "rambla"],
+    "full": "rambla",
+    "canonical": "rbla"
+  },
+  {
+    "tokens": ["rbra", "ribera", "rivera"],
+    "full": "ribera",
+    "canonical": "rbra"
+  },
+  {
+    "tokens": ["rcda", "rinconada"],
+    "full": "rinconada",
+    "canonical": "rcda"
+  },
+  {
+    "tokens": ["rcon", "rincón"],
+    "full": "rincón",
+    "canonical": "rcon"
+  },
+  {
+    "tokens": ["rd", "ronda"],
+    "full": "ronda",
+    "canonical": "rd"
+  },
+  {
+    "tokens": ["resid", "residencial"],
+    "full": "residencial",
+    "canonical": "resid"
+  },
+  {
+    "tokens": ["rtda", "rotonda"],
+    "full": "rotonda",
+    "canonical": "rtda",
+    "onlylayers": ["address"],
+    "note": "translates to 'roundabout'",
+    "type": "way"
+  },
+  {
+    "tokens": ["ru", "rúa"],
+    "full": "rúa",
+    "canonical": "ru"
+  },
+  {
+    "tokens": ["s", "san", "sant"],
+    "full": "san",
+    "canonical": "s"
+  },
+  {
+    "tokens": ["sanat", "sanatorio"],
+    "full": "sanatorio",
+    "canonical": "sanat"
+  },
+  {
+    "tokens": ["santu", "santuario"],
+    "full": "santuario",
+    "canonical": "santu"
+  },
+  {
+    "tokens": ["sbida", "subida"],
+    "full": "subida",
+    "canonical": "sbida"
+  },
+  {
+    "tokens": ["sect", "sector"],
+    "full": "sector",
+    "canonical": "sect"
+  },
+  {
+    "tokens": ["sedra", "sendera"],
+    "full": "sendera",
+    "canonical": "sedra"
+  },
+  {
+    "tokens": ["send", "sendero"],
+    "full": "sendero",
+    "canonical": "send"
+  },
+  {
+    "tokens": ["sta", "santa"],
+    "full": "santa",
+    "canonical": "sta"
+  },
+  {
+    "tokens": ["trans", "tránsito"],
+    "full": "tránsito",
+    "canonical": "trans"
+  },
+  {
+    "tokens": ["tras", "trasera"],
+    "full": "trasera",
+    "canonical": "tras"
+  },
+  {
+    "tokens": ["tr", "trva", "travesia"],
+    "full": "travesia",
+    "canonical": "tr",
+    "type": "way"
+  },
+  {
+    "tokens": ["to", "trrnt", "torrente"],
+    "full": "torrente",
+    "canonical": "to",
+    "type": "way"
+  },
+  {
+    "tokens": ["trval", "transversal"],
+    "full": "transversal",
+    "canonical": "trval"
+  },
+  {
+    "tokens": ["ur"],
+    "full": "ur",
+    "canonical": "ur",
+    "type": "way"
+  },
+  {
+    "tokens": ["urb", "urbanización"],
+    "full": "urbanización",
+    "canonical": "urb"
+  },
+  {
+    "tokens": ["vcto", "viaducto"],
+    "full": "viaducto",
+    "canonical": "vcto"
+  },
+  {
+    "tokens": ["vecin", "vecindario"],
+    "full": "vecindario",
+    "canonical": "vecin"
+  },
+  {
+    "tokens": ["ver", "vreda", "vereda"],
+    "full": "vereda",
+    "canonical": "ver"
+  },
+  {
+    "tokens": ["vvdas", "viviendas"],
+    "full": "viviendas",
+    "canonical": "vvdas"
+  },
+  {
+    "tokens": ["ch", "camino hondo"],
+    "full": "camino hondo",
+    "canonical": "ch",
+    "spanboundaries": 1
+  },
+  {
+    "tokens": ["cn", "camino nuevo"],
+    "full": "camino nuevo",
+    "canonical": "cn",
+    "spanboundaries": 1
+  },
+  {
+    "tokens": ["cv", "camino viejo"],
+    "full": "camino viejo",
+    "canonical": "cv",
+    "spanboundaries": 1
+  },
+  {
+    "tokens": ["gv", "gran vía"],
+    "full": "gran vía",
+    "canonical": "gv",
+    "spanboundaries": 1
+  },
+  {
+    "tokens": ["pi", "pgind"],
+    "full": "pgind",
+    "canonical": "pi"
+  },
+  {
+    "tokens": ["pi", "polígono industrial"],
+    "full": "polígono industrial",
+    "canonical": "pi",
+    "spanboundaries": 1
+  },
+  {
+    "tokens": ["pk", "punto kilométrico"],
+    "full": "punto kilométrico",
+    "canonical": "pk",
+    "spanboundaries": 1
+  },
+  {
+    "tokens": ["psmar", "paseo marítimo"],
+    "full": "paseo marítimo",
+    "canonical": "psmar",
+    "spanboundaries": 1
+  },
+  {
+    "tokens": ["y"],
+    "full": "y",
+    "canonical": "y",
+    "type": "determiner"
+  }
 ]
