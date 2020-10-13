@@ -710,7 +710,7 @@
             "lgen"
         ],
         "full": "leiutenant general",
-        "canonical": "lgen"
+        "canonical": "l gen"
     },
     {
         "tokens": [
@@ -785,7 +785,7 @@
             "mgen"
         ],
         "full": "major general",
-        "canonical": "mgen"
+        "canonical": "m gen"
     },
     {
         "tokens": [
