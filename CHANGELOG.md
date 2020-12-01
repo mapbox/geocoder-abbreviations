@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.6.0
+
+- :rocket: Token additions for Portugese.
+
 ## 4.5.0
 
 - :rocket: Token additions for Polish.
