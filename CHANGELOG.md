@@ -12,7 +12,7 @@
 
 ## 4.6.0
 
-- :rocket: Token additions for Portugese.
+- :rocket: Token additions for Portuguese.
 
 ## 4.5.0
 
