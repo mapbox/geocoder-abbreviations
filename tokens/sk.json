@@ -1,0 +1,101 @@
+[
+  {
+    "tokens": [
+      "a",
+      "&"
+    ],
+    "full": "a",
+    "canonical": "&",
+    "type": "determiner"
+  },
+  {
+    "tokens": [
+      "nábrežie",
+      "nábr"
+    ],
+    "full": "nábrežie",
+    "canonical": "nábr",
+    "note": "translates to 'seafront'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "námestie",
+      "nám"
+    ],
+    "full": "námestie",
+    "canonical": "nám",
+    "note": "translates to 'square'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "chodnik",
+      "chodnick"
+    ],
+    "full": "chodnick",
+    "canonical": "chodnik",
+    "note": "translates to 'pavement'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "ulica",
+      "ul"
+    ],
+    "full": "ulica",
+    "canonical": "ul",
+    "note": "translates to 'street'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "juh",
+      "j"
+    ],
+    "full": "juh",
+    "canonical": "j",
+    "note": "translates to 'south'",
+    "type": "cardinal"
+  },
+  {
+    "tokens": [
+      "sever",
+      "s"
+    ],
+    "full": "sever",
+    "canonical": "s",
+    "note": "translates to 'north'",
+    "type": "cardinal"
+  },
+  {
+    "tokens": [
+      "východ",
+      "v"
+    ],
+    "full": "východ",
+    "canonical": "v",
+    "note": "translates to 'east'",
+    "type": "cardinal"
+  },
+  {
+    "tokens": [
+      "západ",
+      "z"
+    ],
+    "full": "západ",
+    "canonical": "z",
+    "note": "translates to 'west'",
+    "type": "cardinal"
+  },
+  {
+    "tokens": [
+      "centrum",
+      "centr"
+    ],
+    "full": "centrum",
+    "canonical": "centr",
+    "note": "translates to 'center'",
+    "type": "cardinal"
+  }
+]
