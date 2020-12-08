@@ -1,15 +1,6 @@
 [
   {
     "tokens": [
-      "a",
-      "&"
-    ],
-    "full": "a",
-    "canonical": "&",
-    "type": "determiner"
-  },
-  {
-    "tokens": [
       "nábrežie",
       "nábr"
     ],
