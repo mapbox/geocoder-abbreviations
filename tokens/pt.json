@@ -246,7 +246,6 @@
     },
     {
         "tokens": [
-            "B",
             "Br",
             "Bairro"
         ],
@@ -279,14 +278,6 @@
         ],
         "full": "Brigadeiro",
         "canonical": "Brg"
-    },
-    {
-        "tokens": [
-            "C",
-            "Companhia"
-        ],
-        "full": "Companhia",
-        "canonical": "C"
     },
     {
         "tokens": [
@@ -803,14 +794,6 @@
     },
     {
         "tokens": [
-            "N",
-            "Nossa"
-        ],
-        "full": "Nossa",
-        "canonical": "N"
-    },
-    {
-        "tokens": [
             "Part",
             "Particular"
         ],
@@ -891,7 +874,6 @@
     },
     {
         "tokens": [
-            "Q",
             "Qd",
             "Qr",
             "Quadra"
@@ -906,14 +888,6 @@
         ],
         "full": "Quinta",
         "canonical": "Qta"
-    },
-    {
-        "tokens": [
-            "R",
-            "Rio"
-        ],
-        "full": "Rio",
-        "canonical": "R"
     },
     {
         "tokens": [
@@ -939,15 +913,6 @@
     },
     {
         "tokens": [
-            "S",
-            "São"
-        ],
-        "full": "São",
-        "canonical": "S"
-    },
-    {
-        "tokens": [
-            "S",
             "Sr",
             "Senhor"
         ],
@@ -956,7 +921,6 @@
     },
     {
         "tokens": [
-            "S",
             "Sra",
             "Senhora"
         ],
