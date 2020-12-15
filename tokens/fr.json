@@ -411,6 +411,15 @@
     },
     {
         "tokens": [
+            "a la"
+        ],
+        "full": "a la",
+        "canonical": "a la",
+        "spanBoundaries": 1,
+        "type": "determiner"
+    },
+    {
+        "tokens": [
             "Aut",
             "Autoroute"
         ],
