@@ -387,6 +387,14 @@
     },
     {
         "tokens": [
+            "a"
+        ],
+        "full": "a",
+        "canonical": "a",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
             "au"
         ],
         "full": "au",
