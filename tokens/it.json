@@ -1,6 +1,14 @@
 [
     {
         "tokens": [
+            "cna",
+            "cascina"
+        ],
+        "full": "cascina",
+        "canonical": "cna"
+    },
+    {
+        "tokens": [
             "C.le",
             "Calle"
         ],
@@ -17,6 +25,16 @@
         ],
         "full": "Campo",
         "canonical": "C.po"
+    },
+    {
+        "tokens": [
+            "cnt",
+            "cda",
+            "contra",
+            "contrada"
+        ],
+        "full": "contrada",
+        "canonical": "cnt"
     },
     {
         "tokens": [
@@ -78,6 +96,14 @@
         ],
         "full": "Localita",
         "canonical": "Loc."
+    },
+    {
+        "tokens": [
+            "mte",
+            "monte"
+        ],
+        "full": "monte",
+        "canonical": "mte"
     },
     {
         "tokens": [
@@ -203,7 +229,18 @@
     },
     {
         "tokens": [
+            "strada",
+            "str.a",
+            "stra",
+            "str"
+        ],
+        "full": "strada",
+        "canonical": "str"
+    },
+    {
+        "tokens": [
             "SC",
+            "Stc",
             "Strada Comunale"
         ],
         "full": "Strada Comunale",
@@ -212,29 +249,92 @@
     },
     {
         "tokens": [
-            "SP",
-            "Strada Provinciale"
+            "snu",
+            "strada nuova"
         ],
-        "full": "Strada Provinciale",
-        "canonical": "SP",
+        "full": "strada nuova",
+        "canonical": "snu",
         "spanBoundaries": 1
     },
     {
         "tokens": [
-            "SR",
-            "Strada Regionale"
+            "spr",
+            "strada privata"
         ],
-        "full": "Strada Regionale",
-        "canonical": "SR",
+        "full": "strada privata",
+        "canonical": "spr",
         "spanBoundaries": 1
     },
     {
         "tokens": [
-            "SS",
-            "Strada Statale"
+            "sve",
+            "strada vecchia"
         ],
-        "full": "Strada Statale",
-        "canonical": "SS",
+        "full": "strada vecchia",
+        "canonical": "sve",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "sdl",
+            "stradale"
+        ],
+        "full": "stradale",
+        "canonical": "sdl"
+    },
+    {
+        "tokens": [
+            "sp",
+            "s p",
+            "str provinciale",
+            "s provinciale",
+            "str prov",
+            "s prov",
+            "strada provinciale"
+        ],
+        "full": "strada provinciale",
+        "canonical": "sp",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "sv",
+            "s v",
+            "str vic",
+            "str vicinale",
+            "s vicinale",
+            "strada vicinale"
+        ],
+        "full": "strada vicinale",
+        "canonical": "sv",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "sr",
+            "s r",
+            "str reg",
+            "str r",
+            "str reginale",
+            "s reginale",
+            "strada regionale"
+        ],
+        "full": "strada regionale",
+        "canonical": "sr",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "ss",
+            "s s",
+            "str s",
+            "str st",
+            "str statale",
+            "s statale",
+            "strada statale"
+        ],
+        "full": "strada statale",
+        "canonical": "ss",
         "spanBoundaries": 1
     },
     {
@@ -284,5 +384,21 @@
         "full": "delle",
         "canonical": "delle",
         "type": "determiner"
+    },
+    {
+        "tokens": [
+            "tra",
+            "traversa"
+        ],
+        "full": "traversa",
+        "canonical": "tra"
+    },
+    {
+        "tokens": [
+            "vic",
+            "vico"
+        ],
+        "full": "vico",
+        "canonical": "vic"
     }
 ]
