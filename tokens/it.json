@@ -1,6 +1,202 @@
 [
     {
         "tokens": [
+            "0",
+            "zero"
+        ],
+        "full": "zero",
+        "canonical": "0",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "1",
+            "uno"
+        ],
+        "full": "uno",
+        "canonical": "1",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "2",
+            "ii",
+            "due"
+        ],
+        "full": "due",
+        "canonical": "2",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "3",
+            "iii",
+            "tre"
+        ],
+        "full": "tre",
+        "canonical": "3",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "4",
+            "iv",
+            "quattro"
+        ],
+        "full": "quattro",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "5",
+            "v",
+            "cinque"
+        ],
+        "full": "cinque",
+        "canonical": "5",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "6",
+            "vi",
+            "sei"
+        ],
+        "full": "sei",
+        "canonical": "6",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "7",
+            "vii",
+            "sette"
+        ],
+        "full": "sette",
+        "canonical": "7",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "8",
+            "viii",
+            "otto"
+        ],
+        "full": "otto",
+        "canonical": "8",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "9",
+            "ix",
+            "nove"
+        ],
+        "full": "nove",
+        "canonical": "9",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "10",
+            "x",
+            "dieci"
+        ],
+        "full": "dieci",
+        "canonical": "10",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "11",
+            "xi",
+            "undici"
+        ],
+        "full": "undici",
+        "canonical": "11",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "18",
+            "xviii",
+            "diciotto"
+        ],
+        "full": "diciotto",
+        "canonical": "18",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "20",
+            "xx",
+            "venti"
+        ],
+        "full": "venti",
+        "canonical": "20",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "25",
+            "xxv",
+            "venticinque"
+        ],
+        "full": "venticinque",
+        "canonical": "25",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "a"
+        ],
+        "full": "a",
+        "canonical": "a",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "al"
+        ],
+        "full": "al",
+        "canonical": "al",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "alla"
+        ],
+        "full": "alla",
+        "canonical": "alla",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "alle"
+        ],
+        "full": "alle",
+        "canonical": "alle",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "allo"
+        ],
+        "full": "allo",
+        "canonical": "allo",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "cav",
+            "cavaliere"
+        ],
+        "full": "cavaliere",
+        "canonical": "cav"
+    },
+    {
+        "tokens": [
             "cna",
             "cascina"
         ],
@@ -197,6 +393,8 @@
     {
         "tokens": [
             "V.",
+            "Vica",
+            "Viale",
             "Via"
         ],
         "full": "Via",
@@ -235,7 +433,8 @@
             "str"
         ],
         "full": "strada",
-        "canonical": "str"
+        "canonical": "str",
+        "type": "way"
     },
     {
         "tokens": [
@@ -362,10 +561,11 @@
     },
     {
         "tokens": [
-            "della"
+            "della",
+            "dla"
         ],
         "full": "della",
-        "canonical": "della",
+        "canonical": "dla",
         "type": "determiner"
     },
     {
@@ -378,10 +578,20 @@
     },
     {
         "tokens": [
-            "delle"
+            "delle",
+            "dle"
         ],
         "full": "delle",
-        "canonical": "delle",
+        "canonical": "dle",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "dello",
+            "dlo"
+        ],
+        "full": "dello",
+        "canonical": "dlo",
         "type": "determiner"
     },
     {
@@ -399,5 +609,15 @@
         ],
         "full": "vico",
         "canonical": "vic"
+    },
+    {
+        "tokens": [
+            "vnu",
+            "via nuova"
+        ],
+        "full": "via nuova",
+        "canonical": "vnu",
+        "spanBoundaries": 1,
+        "type": "way"
     }
 ]
