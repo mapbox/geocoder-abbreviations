@@ -816,5 +816,14 @@
         "full": "Van De",
         "canonical": "vd",
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "'t zand",
+            "het zand"
+        ],
+        "full": "het zand",
+        "canonical": "'t zand",
+        "spanBoundaries": 1
     }
 ]
