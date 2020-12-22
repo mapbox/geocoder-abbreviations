@@ -825,5 +825,16 @@
         "full": "het zand",
         "canonical": "'t zand",
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "$1 str",
+            "([^ ]+)(straat|str)"
+        ],
+        "full": "([^ ]+)(straat|str)",
+        "canonical": "$1 str",
+        "regex": true,
+        "skipDiacriticStripping": true,
+        "spanBoundaries": 0    
     }
 ]
