@@ -1,0 +1,74 @@
+[
+  {
+    "tokens": ["aleja", "al"],
+    "full": "aleja",
+    "canonical": "aleja",
+    "type": "way"
+  },
+  {
+    "tokens": ["avenija", "av"],
+    "full": "avenija",
+    "canonical": "avenija",
+    "type": "way"
+  },
+  {
+    "tokens": ["bulevar", "bul"],
+    "full": "bulevar",
+    "canonical": "bulevar",
+    "type": "way"
+  },
+  {
+    "tokens": ["cesta", "c"],
+    "full": "cesta",
+    "canonical": "cesta",
+    "type": "way"
+  },
+  {
+    "tokens": ["klanac"],
+    "full": "klanac",
+    "canonical": "klanac",
+    "type": "way"
+  },
+  {
+    "tokens": ["most"],
+    "full": "most",
+    "canonical": "most",
+    "type": "way"
+  },
+  {
+    "tokens": ["prilaz"],
+    "full": "prilaz",
+    "canonical": "prilaz",
+    "type": "way"
+  },
+  {
+    "tokens": ["put"],
+    "full": "put",
+    "canonical": "put",
+    "type": "way"
+  },
+  {
+    "tokens": ["šetalište", "setaliste"],
+    "full": "setaliste",
+    "canonical": "setaliste",
+    "type": "way"
+  },
+  {
+    "tokens": ["stube"],
+    "full": "stube",
+    "canonical": "stube",
+    "type": "way"
+  },
+  {
+    "tokens": ["trg"],
+    "full": "trg",
+    "canonical": "trg",
+    "type": "way"
+  },
+  {
+    "tokens": ["ulica", "ul"],
+    "full": "ulica",
+    "canonical": "ulica",
+    "type": "way"
+  }
+]

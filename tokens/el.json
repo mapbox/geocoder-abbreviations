@@ -1,0 +1,32 @@
+[
+  {
+    "tokens": ["odós", "odos", "odhos"],
+    "full": "odos",
+    "canonical": "odos",
+    "type": "way"
+  },
+  {
+    "tokens": ["λεωφόρος", "λεωφορος", "λ", "λεωφ"],
+    "full": "λεωφορος",
+    "canonical": "λεωφορος",
+    "type": "way"
+  },
+  {
+    "tokens": ["leofóros", "leoforos", "l", "leof"],
+    "full": "leoforos",
+    "canonical": "leoforos",
+    "type": "way"
+  },
+  {
+    "tokens": ["πλατεία", "πλατεια", "πλ"],
+    "full": "πλατεια",
+    "canonical": "πλατεια",
+    "type": "way"
+  },
+  {
+    "tokens": ["plateía", "plateia", "pl"],
+    "full": "plateia",
+    "canonical": "plateia",
+    "type": "way"
+  }
+]
