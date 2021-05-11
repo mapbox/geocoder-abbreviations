@@ -1,20 +1,20 @@
 [
   {
-    "tokens": ["bulvar","bulvarı","bulvari","bl","blv"],
+    "tokens": ["bulvar", "bulvarı", "bulvari", "bl", "blv"],
     "full": "bulvar",
     "canonical": "bl",
     "type": "way",
     "note": "translates to 'boulevard'"
   },
   {
-    "tokens": ["cadde","cd","cad","caddesi"],
+    "tokens": ["cadde", "cd", "cad", "caddesi"],
     "full": "cadde",
     "canonical": "cd",
     "type": "way",
     "note": "translates to 'street'"
   },
   {
-    "tokens": ["çevre yolu","çevreyolu","cevre yolu","cevreyolu"],
+    "tokens": ["çevre yolu", "çevreyolu", "cevre yolu", "cevreyolu"],
     "full": "cevre yolu",
     "canonical": "cevreyolu",
     "type": "way",
@@ -22,26 +22,24 @@
     "note": "translates to 'beltway'"
   },
   {
-    "tokens": ["sokak","sk","sok"],
+    "tokens": ["sokak", "sk", "sok"],
     "full": "sokak",
     "canonical": "sk",
     "type": "way",
-    "note": "translates to 'street'",
+    "note": "translates to 'street'"
   },
   {
-    "tokens": ["sokagi","sk","sok"],
+    "tokens": ["sokagi", "sk", "sok"],
     "full": "sokagi",
     "canonical": "sk",
     "type": "way",
     "note": "translates to 'street'"
   },
   {
-    "tokens": ["yolu","yol"],
+    "tokens": ["yolu", "yol"],
     "full": "yolu",
     "canonical": "yol",
     "type": "way",
     "note": "translates to 'way to'"
   }
 ]
-
-
