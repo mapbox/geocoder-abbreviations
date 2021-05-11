@@ -14,7 +14,7 @@
     "note": "translates to 'street'"
   },
   {
-    "tokens": ["çevre yolu", "çevreyolu", "cevre yolu", "cevreyolu"],
+    "tokens": ["cevre yolu", "cevreyolu"],
     "full": "cevre yolu",
     "canonical": "cevreyolu",
     "type": "way",
