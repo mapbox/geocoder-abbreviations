@@ -13,9 +13,10 @@
   },
   {
     "tokens": ["çevre yolu","çevreyolu","cevre yolu","cevreyolu"],
-    "full": "cevreyolu",
+    "full": "cevre yolu",
     "canonical": "cevreyolu",
-    "type": "way"
+    "type": "way",
+    "spanBoundaries": 1
   },
   {
     "tokens": ["köprüsü","koprusu"],
