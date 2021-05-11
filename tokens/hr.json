@@ -3,30 +3,35 @@
     "tokens": ["aleja", "al"],
     "full": "aleja",
     "canonical": "al",
-    "type": "way"
+    "type": "way",
+    "note": "translates to 'alley'"
   },
   {
     "tokens": ["avenija", "av"],
     "full": "avenija",
     "canonical": "av",
-    "type": "way"
+    "type": "way",
+    "note": "translates to 'avenue'"
   },
   {
     "tokens": ["bulevar", "bul"],
     "full": "bulevar",
     "canonical": "bul",
-    "type": "way"
+    "type": "way",
+    "note": "translates to 'boulevard'"
   },
   {
     "tokens": ["cesta", "c"],
     "full": "cesta",
     "canonical": "c",
-    "type": "way"
+    "type": "way",
+    "note": "translates to 'road'"
   },
   {
     "tokens": ["ulica", "ul"],
     "full": "ulica",
     "canonical": "ul",
-    "type": "way"
+    "type": "way",
+    "note": "translates to 'street'"
   }
 ]
