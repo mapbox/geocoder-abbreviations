@@ -8,25 +8,25 @@
   {
     "tokens": ["λεωφόρος", "λεωφορος", "λ", "λεωφ"],
     "full": "λεωφορος",
-    "canonical": "λεωφορος",
+    "canonical": "λεωφ",
     "type": "way"
   },
   {
     "tokens": ["leofóros", "leoforos", "l", "leof"],
     "full": "leoforos",
-    "canonical": "leoforos",
+    "canonical": "leof",
     "type": "way"
   },
   {
     "tokens": ["πλατεία", "πλατεια", "πλ"],
     "full": "πλατεια",
-    "canonical": "πλατεια",
+    "canonical": "πλ",
     "type": "way"
   },
   {
     "tokens": ["plateía", "plateia", "pl"],
     "full": "plateia",
-    "canonical": "plateia",
+    "canonical": "pl",
     "type": "way"
   }
 ]

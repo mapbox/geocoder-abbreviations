@@ -1,30 +1,30 @@
 [
   {
-    "tokens": ["aleja", "al"],
+    "tokens": ["aleja","al"],
     "full": "aleja",
     "canonical": "al",
     "type": "way"
   },
   {
-    "tokens": ["avenija", "av"],
+    "tokens": ["avenija","av"],
     "full": "avenija",
     "canonical": "av",
     "type": "way"
   },
   {
-    "tokens": ["bulevar", "bul"],
+    "tokens": ["bulevar","bul"],
     "full": "bulevar",
     "canonical": "bul",
     "type": "way"
   },
   {
-    "tokens": ["cesta", "c"],
+    "tokens": ["cesta","c"],
     "full": "cesta",
     "canonical": "c",
     "type": "way"
   },
   {
-    "tokens": ["ulica", "ul"],
+    "tokens": ["ulica","ul"],
     "full": "ulica",
     "canonical": "ul",
     "type": "way"

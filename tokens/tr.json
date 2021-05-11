@@ -1,0 +1,46 @@
+[
+  {
+    "tokens": ["bulvar","bulvarı","bulvari","bl","blv"],
+    "full": "bulvar",
+    "canonical": "bl",
+    "type": "way"
+  },
+  {
+    "tokens": ["cadde","cd","cad","caddesi"],
+    "full": "cadde",
+    "canonical": "cd",
+    "type": "way"
+  },
+  {
+    "tokens": ["çevre yolu","çevreyolu","cevre yolu","cevreyolu"],
+    "full": "cevreyolu",
+    "canonical": "cevreyolu",
+    "type": "way"
+  },
+  {
+    "tokens": ["köprüsü","koprusu"],
+    "full": "koprusu",
+    "canonical": "koprusu",
+    "type": "way"
+  },
+  {
+    "tokens": ["sokak","sk","sok"],
+    "full": "sokak",
+    "canonical": "sk",
+    "type": "way"
+  },
+  {
+    "tokens": ["sokağı","sokagi","sk","sok"],
+    "full": "sokagi",
+    "canonical": "sk",
+    "type": "way"
+  },
+  {
+    "tokens": ["yolu","yol"],
+    "full": "yolu",
+    "canonical": "yol",
+    "type": "way"
+  }
+]
+
+
