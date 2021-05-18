@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/mapbox/geocoder-abbreviations#readme",
   "dependencies": {
-    "tape": "^4.6.3",
     "union-find": "^1.0.2"
+  },
+  "devDependencies": {
+    "tape": "^5.2.2"
   }
 }
