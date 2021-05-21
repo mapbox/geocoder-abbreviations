@@ -2448,6 +2448,14 @@
     },
     {
         "tokens": [
+            "Shls",
+            "Shoals"
+        ],
+        "full": "Shoals",
+        "canonical": "Shls"
+    },
+    {
+        "tokens": [
             "Sc",
             "Shopping Center"
         ],
@@ -2503,6 +2511,14 @@
         "full": "Spur",
         "canonical": "Sp",
         "onlyLayers": ["address"]
+    },
+    {
+        "tokens": [
+            "Spg",
+            "Spring"
+        ],
+        "full": "Spring",
+        "canonical": "Spg"
     },
     {
         "tokens": [
@@ -2677,6 +2693,16 @@
         "full": "Turn",
         "canonical": "Tu",
         "onlyLayers": ["address"]
+    },
+    {
+        "tokens": [
+            "Tpke",
+            "Turnpike"
+        ],
+        "full": "Turnpike",
+        "canonical": "Tpke",
+        "onlyLayers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
