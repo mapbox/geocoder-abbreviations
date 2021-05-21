@@ -499,6 +499,14 @@
     },
     {
         "tokens": [
+            "Bldg",
+            "Building"
+        ],
+        "full": "Building",
+        "canonical": "Bldg"
+    },
+    {
+        "tokens": [
             "Blf",
             "Bluff"
         ],
@@ -800,6 +808,15 @@
     },
     {
         "tokens": [
+            "cth",
+            "county highway"
+        ],
+        "full": "county highway",
+        "canonical": "cth",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
             "Coll",
             "College"
         ],
@@ -939,6 +956,7 @@
     },
     {
         "tokens": [
+            "Cen",
             "Ctr",
             "Center",
             "Centre"
@@ -1057,6 +1075,16 @@
         ],
         "full": "District",
         "canonical": "Dt"
+    },
+    {
+        "tokens": [
+            "dw",
+            "Daniel Webster"
+        ],
+        "full": "Daniel Webster",
+        "canonical": "dw",
+        "spanBoundaries": 1
+
     },
     {
         "tokens": [
@@ -2595,6 +2623,7 @@
             "Te",
             "Tce",
             "Ter",
+            "Terr",
             "Terrace"
         ],
         "full": "Terrace",
@@ -2851,6 +2880,8 @@
     },
     {
         "tokens": [
+            "Wk",
+            "Wal",
             "Wlk",
             "Walk"
         ],
@@ -2886,6 +2917,7 @@
         "tokens": [
             "Xing",
             "Crssn",
+            "Crossn",
             "Crossing"
         ],
         "full": "Crossing",
