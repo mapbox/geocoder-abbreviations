@@ -2998,6 +2998,16 @@
     },
     {
         "tokens": [
+            "Rr",
+            "Ranch Rd",
+            "Ranch Road"
+        ],
+        "full": "Ranch Road",
+        "canonical": "Rr",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
             "Rs",
             "Railway Station"
         ],
