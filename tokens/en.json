@@ -381,6 +381,7 @@
     },
     {
         "tokens": [
+            "Al",
             "Aly",
             "Ally",
             "Alley"
@@ -498,6 +499,14 @@
     },
     {
         "tokens": [
+            "Bldg",
+            "Building"
+        ],
+        "full": "Building",
+        "canonical": "Bldg"
+    },
+    {
+        "tokens": [
             "Blf",
             "Bluff"
         ],
@@ -573,6 +582,7 @@
     },
     {
         "tokens": [
+            "Bl",
             "Blv",
             "Blvd",
             "Boulevard"
@@ -666,6 +676,7 @@
     },
     {
         "tokens": [
+            "Ci",
             "Cir",
             "Circle"
         ],
@@ -785,6 +796,24 @@
         ],
         "full": "County",
         "canonical": "Co"
+    },
+    {
+        "tokens": [
+            "cr",
+            "county road"
+        ],
+        "full": "county road",
+        "canonical": "cr",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "cth",
+            "county highway"
+        ],
+        "full": "county highway",
+        "canonical": "cth",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -927,6 +956,7 @@
     },
     {
         "tokens": [
+            "Cen",
             "Ctr",
             "Center",
             "Centre"
@@ -1045,6 +1075,16 @@
         ],
         "full": "District",
         "canonical": "Dt"
+    },
+    {
+        "tokens": [
+            "dw",
+            "Daniel Webster"
+        ],
+        "full": "Daniel Webster",
+        "canonical": "dw",
+        "spanBoundaries": 1
+
     },
     {
         "tokens": [
@@ -1484,6 +1524,7 @@
     },
     {
         "tokens": [
+            "Hy",
             "Hwy",
             "Highway"
         ],
@@ -1863,6 +1904,16 @@
     },
     {
         "tokens": [
+            "NFR",
+            "National Forest Road"
+        ],
+        "full": "National Forest Road",
+        "canonical": "NFR",
+        "type": "way",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
             "N",
             "Nth",
             "North"
@@ -2048,6 +2099,7 @@
     },
     {
         "tokens": [
+            "Pz",
             "Plz",
             "Plza",
             "Plaza"
@@ -2119,6 +2171,16 @@
         ],
         "full": "Private",
         "canonical": "Pvt"
+    },
+    {
+        "tokens": [
+            "pr",
+            "private road"
+        ],
+        "full": "private road",
+        "canonical": "pr",
+        "type": "way",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -2204,6 +2266,7 @@
     },
     {
         "tokens": [
+            "Rg",
             "Rdg",
             "Rdge",
             "Ridge"
@@ -2229,6 +2292,15 @@
         "canonical": "Rds",
         "onlyLayers": ["address"],
         "type": "way"
+    },
+    {
+        "tokens": [
+            "Rn",
+            "Run"
+        ],
+        "full": "Roads",
+        "canonical": "Rds",
+        "onlyLayers": ["address"]
     },
     {
         "tokens": [
@@ -2384,6 +2456,15 @@
     },
     {
         "tokens": [
+            "Sc",
+            "Shopping Center"
+        ],
+        "full": "Shopping Center",
+        "canonical": "Sc",
+        "onlyLayers": ["address"]
+    },
+    {
+        "tokens": [
             "Shr",
             "Shore"
         ],
@@ -2421,6 +2502,15 @@
         ],
         "full": "Summit",
         "canonical": "Smt"
+    },
+    {
+        "tokens": [
+            "Sp",
+            "Spur"
+        ],
+        "full": "Spur",
+        "canonical": "Sp",
+        "onlyLayers": ["address"]
     },
     {
         "tokens": [
@@ -2546,8 +2636,10 @@
     },
     {
         "tokens": [
+            "Te",
             "Tce",
             "Ter",
+            "Terr",
             "Terrace"
         ],
         "full": "Terrace",
@@ -2592,6 +2684,15 @@
         "canonical": "Tlwy",
         "onlyLayers": ["address"],
         "type": "way"
+    },
+    {
+        "tokens": [
+            "Tu",
+            "Turn"
+        ],
+        "full": "Turn",
+        "canonical": "Tu",
+        "onlyLayers": ["address"]
     },
     {
         "tokens": [
@@ -2805,6 +2906,8 @@
     },
     {
         "tokens": [
+            "Wk",
+            "Wal",
             "Wlk",
             "Walk"
         ],
@@ -2813,6 +2916,7 @@
     },
     {
         "tokens": [
+            "Wa",
             "Wy",
             "Way"
         ],
@@ -2838,6 +2942,8 @@
     {
         "tokens": [
             "Xing",
+            "Crssn",
+            "Crossn",
             "Crossing"
         ],
         "full": "Crossing",
@@ -2888,6 +2994,16 @@
         ],
         "full": "Post Office",
         "canonical": "Po",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "Rr",
+            "Ranch Rd",
+            "Ranch Road"
+        ],
+        "full": "Ranch Road",
+        "canonical": "Rr",
         "spanBoundaries": 1
     },
     {
