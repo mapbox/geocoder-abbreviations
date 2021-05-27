@@ -2988,7 +2988,7 @@
         "full": "([0-9]+)(?:st|nd|rd|th)",
         "regex": true,
         "onlyLayers": ["address"],
-        "onlyCountries": ["us"],
+        "onlyCountries": ["us", "ca"],
         "reduceRelevance": true
     }
 ]
